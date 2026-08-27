@@ -1,2 +1,1 @@
 # TruyenthongIoT
-# truyenthongiot
