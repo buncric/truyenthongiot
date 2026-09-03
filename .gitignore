@@ -1,0 +1,7 @@
+# Proteus temporary workspace files
+*.workspace
+*.pdsprj.*.workspace
+
+# Local editor and OS files
+.DS_Store
+Thumbs.db
