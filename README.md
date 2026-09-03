@@ -1,4 +1,6 @@
-# Bài 1.1. Giao tiếp UART giữa Arduino và module ESP8266
+# TruyenthongIoT
+
+## Bài 1.1. Giao tiếp UART giữa Arduino và module ESP8266
 
 Dự án mô phỏng giao tiếp UART giữa Arduino và module ESP8266 trên Proteus.
 
