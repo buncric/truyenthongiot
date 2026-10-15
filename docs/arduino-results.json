@@ -3,147 +3,168 @@
     "sketch": "BTH02_UART/2.1_ESP8266_Bridge/2.1_ESP8266_Bridge.ino",
     "board": "esp8266:esp8266:nodemcuv2",
     "passed": true,
-    "source_sha256": "4fd8c7018ed189010ed2bb85fcac80873563b16c7965251acaf2511c32e00af3",
-    "log": "docs/build-logs/2.1_ESP8266_Bridge/compile.txt"
+    "source_sha256": "4ee694b444c25a4207fca1202130efacf42940d1217c15b11cbca0582d6f375c",
+    "log": "docs/build-logs/2.1_ESP8266_Bridge/compile.txt",
+    "source_sha256_normalization": "LF"
   },
   {
     "sketch": "BTH02_UART/2.1_UNO_LED/2.1_UNO_LED.ino",
     "board": "arduino:avr:uno",
     "passed": true,
-    "source_sha256": "1ad36d94c6c86c8887bdd9217f92881286459c61622f9346029b88e25f566663",
-    "log": "docs/build-logs/2.1_UNO_LED/compile.txt"
+    "source_sha256": "46f8b4c3879ab3935ecbd9bee851763a9f275745bf9151bd11d534b9d0ca71ed",
+    "log": "docs/build-logs/2.1_UNO_LED/compile.txt",
+    "source_sha256_normalization": "LF"
   },
   {
     "sketch": "BTH02_UART/2.2_Baud_Button/2.2_Baud_Button.ino",
     "board": "arduino:avr:uno",
     "passed": true,
-    "source_sha256": "b51c962491a4a987533577ffb7fd4058e32a11aa4927e85b93e1ef7f34986011",
-    "log": "docs/build-logs/2.2_Baud_Button/compile.txt"
+    "source_sha256": "b23f256ac5f2b36e4ec5468d9113d27ebea18b5b2b058c5802d0524f321b8f9c",
+    "log": "docs/build-logs/2.2_Baud_Button/compile.txt",
+    "source_sha256_normalization": "LF"
   },
   {
     "sketch": "BTH03_SPI_I2C/3.1_RTC_Serial/3.1_RTC_Serial.ino",
     "board": "arduino:avr:uno",
     "passed": true,
-    "source_sha256": "7ece7c75a3b660f559df658d814d1c30c235b5e2d599d681fbff8c0df5cfa9e7",
-    "log": "docs/build-logs/3.1_RTC_Serial/compile.txt"
+    "source_sha256": "036982f90d1e7221f4f8dfa3413d3e1f4663ca11555fa390007605b37b0fa252",
+    "log": "docs/build-logs/3.1_RTC_Serial/compile.txt",
+    "source_sha256_normalization": "LF"
   },
   {
     "sketch": "BTH03_SPI_I2C/3.2_Alarm_Clock/3.2_Alarm_Clock.ino",
     "board": "arduino:avr:uno",
     "passed": true,
-    "source_sha256": "493e38d66e5ec5cc7e1da4d390e9a14c74f6d9b85218c806252a691ee0102d82",
-    "log": "docs/build-logs/3.2_Alarm_Clock/compile.txt"
+    "source_sha256": "6bc09ee8bb3dd3109ddfbfb3712a8599c191e42ccce97f73c26adcb131350b27",
+    "log": "docs/build-logs/3.2_Alarm_Clock/compile.txt",
+    "source_sha256_normalization": "LF"
   },
   {
     "sketch": "BTH03_SPI_I2C/3.3_MAX7219/3.3_MAX7219.ino",
     "board": "arduino:avr:uno",
     "passed": true,
-    "source_sha256": "1347011b8c7ca75e8bda31fdc383b9d5db4dd8f72f6100e1c394394f95981c23",
-    "log": "docs/build-logs/3.3_MAX7219/compile.txt"
+    "source_sha256": "126efa165399a62b2548cfe51f5b4bd9fc04a6dd2eb8fbb88d04f7d810df447d",
+    "log": "docs/build-logs/3.3_MAX7219/compile.txt",
+    "source_sha256_normalization": "LF"
   },
   {
     "sketch": "BTH05_BLUETOOTH/5.1_AT_Bridge/5.1_AT_Bridge.ino",
     "board": "arduino:avr:uno",
     "passed": true,
-    "source_sha256": "71faa0fbe0d61bb20c552fd8c874bc17145f8d55b553d3623880335362741a35",
-    "log": "docs/build-logs/5.1_AT_Bridge/compile.txt"
+    "source_sha256": "5b5eb8c2427804ba2ea9865be263d480136f4fee202fd3c3ec8c0f3a26965d71",
+    "log": "docs/build-logs/5.1_AT_Bridge/compile.txt",
+    "source_sha256_normalization": "LF"
   },
   {
     "sketch": "BTH05_BLUETOOTH/5.3_LED_Control/5.3_LED_Control.ino",
     "board": "arduino:avr:uno",
     "passed": true,
-    "source_sha256": "5ab44ca43e827364543d1baddfe59c8b84d05bf4ccf98c980962c83349e973c6",
-    "log": "docs/build-logs/5.3_LED_Control/compile.txt"
+    "source_sha256": "ba8312d67b8d3278442eb9fe73652630e22ac179733651627a88adfc39b47c31",
+    "log": "docs/build-logs/5.3_LED_Control/compile.txt",
+    "source_sha256_normalization": "LF"
   },
   {
     "sketch": "BTH05_BLUETOOTH/5.4_DHT11/5.4_DHT11.ino",
     "board": "arduino:avr:uno",
     "passed": true,
-    "source_sha256": "cde4d28302cfb0743b86bd02bf8588921c512940d35cc9a8ec92149898efd52f",
-    "log": "docs/build-logs/5.4_DHT11/compile.txt"
+    "source_sha256": "4c92d250cdc8436687d069a4017657c16dd6326580951a1d08522c3992587d70",
+    "log": "docs/build-logs/5.4_DHT11/compile.txt",
+    "source_sha256_normalization": "LF"
   },
   {
     "sketch": "BTH12_MQTT/12.1_Telemetry/12.1_Telemetry.ino",
     "board": "esp8266:esp8266:d1_mini",
     "passed": true,
-    "source_sha256": "7f6f82e263310488818772cc1837930a9106f3c8008091d8101f4a27ccae9b5d",
-    "log": "docs/build-logs/12.1_Telemetry/compile.txt"
+    "source_sha256": "102c63ccc600f43b0ccb0fca36dba281959e41c7aa7e48e5ce4328786e89a382",
+    "log": "docs/build-logs/12.1_Telemetry/compile.txt",
+    "source_sha256_normalization": "LF"
   },
   {
     "sketch": "BTH12_MQTT/12.2_LED_Command/12.2_LED_Command.ino",
     "board": "esp8266:esp8266:d1_mini",
     "passed": true,
-    "source_sha256": "e25fb9dc70ad46bc8458a03daa3d42f62900a0bb15e5dca06dd038fa28c92428",
-    "log": "docs/build-logs/12.2_LED_Command/compile.txt"
+    "source_sha256": "061f22459fb97e9349d68a4e9a3009db4278479ebe4b39b0fcf6a19f3c1b2bf9",
+    "log": "docs/build-logs/12.2_LED_Command/compile.txt",
+    "source_sha256_normalization": "LF"
   },
   {
     "sketch": "BTH12_MQTT/12.3_Retain_LWT/12.3_Retain_LWT.ino",
     "board": "esp8266:esp8266:d1_mini",
     "passed": true,
-    "source_sha256": "570951487fe7de7916fe50d385d7f6e8acdb61b1c0023037fd7a845007baabc3",
-    "log": "docs/build-logs/12.3_Retain_LWT/compile.txt"
+    "source_sha256": "46355ceacc1f294e0489a50efb1ef9a871eefabf36613eb2012b865ebc22f54d",
+    "log": "docs/build-logs/12.3_Retain_LWT/compile.txt",
+    "source_sha256_normalization": "LF"
   },
   {
     "sketch": "BTH13_COAP/13.1_CON/13.1_CON.ino",
     "board": "esp8266:esp8266:d1_mini",
     "passed": true,
-    "source_sha256": "68ca40759c7b526e92d107a51d264fd88428e45e1ac0069dcd950f9b9f8c9ead",
-    "log": "docs/build-logs/13.1_CON/compile.txt"
+    "source_sha256": "5ea52b42b28f684008d5f896084d29753e09df879a538f27590bca31e4514f96",
+    "log": "docs/build-logs/13.1_CON/compile.txt",
+    "source_sha256_normalization": "LF"
   },
   {
     "sketch": "BTH13_COAP/13.1_NON/13.1_NON.ino",
     "board": "esp8266:esp8266:d1_mini",
     "passed": true,
-    "source_sha256": "755c531addf0bbc44bb1511432283e1d9bda15fb8a590e4277c874a0b6265fe3",
-    "log": "docs/build-logs/13.1_NON/compile.txt"
+    "source_sha256": "7f40462c5623d66380b52b5441ea8c202b6552017daebfe34017e770473e688d",
+    "log": "docs/build-logs/13.1_NON/compile.txt",
+    "source_sha256_normalization": "LF"
   },
   {
     "sketch": "BTH13_COAP/13.2_Observe/13.2_Observe.ino",
     "board": "esp8266:esp8266:d1_mini",
     "passed": true,
-    "source_sha256": "f61544a69812f30461d82c5eb21e678ee179fe42c42187737c0cb50091ab465a",
-    "log": "docs/build-logs/13.2_Observe/compile.txt"
+    "source_sha256": "dc9293b053089cc5f0126f199f3df16ef7612b3cb5e3b1d73c500bc1773a9dc9",
+    "log": "docs/build-logs/13.2_Observe/compile.txt",
+    "source_sha256_normalization": "LF"
   },
   {
     "sketch": "BTH13_COAP/13.2_Poll/13.2_Poll.ino",
     "board": "esp8266:esp8266:d1_mini",
     "passed": true,
-    "source_sha256": "1767acb247b94071ac832e90d0d637004c4abbe084b71e67a7d79d0ac7828c79",
-    "log": "docs/build-logs/13.2_Poll/compile.txt"
+    "source_sha256": "5bdf52e475ff2cbdc6fcb91298d7ea9acfe86746f1e35d4e2cf2283a5e97e4d4",
+    "log": "docs/build-logs/13.2_Poll/compile.txt",
+    "source_sha256_normalization": "LF"
   },
   {
     "sketch": "BTH13_COAP/13.3_Blockwise/13.3_Blockwise.ino",
     "board": "esp8266:esp8266:d1_mini",
     "passed": true,
-    "source_sha256": "e58e59e198b85ba6268078a9bbf0c0f631e172366a6049479cbf8138ea0e82cd",
-    "log": "docs/build-logs/13.3_Blockwise/compile.txt"
+    "source_sha256": "664194f9da4a220c280339d73a1f656a4d4dac2ac60df886efd208b9394ec5f8",
+    "log": "docs/build-logs/13.3_Blockwise/compile.txt",
+    "source_sha256_normalization": "LF"
   },
   {
     "sketch": "BTH14_BAO_MAT/14.1_TLS/14.1_TLS.ino",
     "board": "esp32:esp32:esp32",
     "passed": true,
-    "source_sha256": "0a940b2b579f50673a393316da86b93360fafd4dce97268cd49eba5e1bfc069e",
-    "log": "docs/build-logs/14.1_TLS/compile.txt"
+    "source_sha256": "4e70d968b8bf06f188e3acb0b1732f07ec729736df93004e982399330702d15c",
+    "log": "docs/build-logs/14.1_TLS/compile.txt",
+    "source_sha256_normalization": "LF"
   },
   {
     "sketch": "BTH14_BAO_MAT/14.2_Anti_Replay/14.2_Anti_Replay.ino",
     "board": "esp32:esp32:esp32",
     "passed": true,
-    "source_sha256": "3f6d56aab968314642f8d7ea52a2e611f6ab93e9b320ca25038cd680b4813b9d",
-    "log": "docs/build-logs/14.2_Anti_Replay/compile.txt"
+    "source_sha256": "f9eac7f4a05a3ed0950c88cd98a3e6d59ddf9589b31428d932a328c041347fcd",
+    "log": "docs/build-logs/14.2_Anti_Replay/compile.txt",
+    "source_sha256_normalization": "LF"
   },
   {
     "sketch": "BTH14_BAO_MAT/14.2_Vulnerable/14.2_Vulnerable.ino",
     "board": "esp32:esp32:esp32",
     "passed": true,
-    "source_sha256": "b25c41d2b52d4f6aab25dd36949d0d58cc129cc3293a7d14f481e082dee0edec",
-    "log": "docs/build-logs/14.2_Vulnerable/compile.txt"
+    "source_sha256": "7de353ff31e087ac397c4ca96933b430922660c81589386237c8b52f939a7935",
+    "log": "docs/build-logs/14.2_Vulnerable/compile.txt",
+    "source_sha256_normalization": "LF"
   },
   {
     "sketch": "BTH14_BAO_MAT/14.3_Resilience/14.3_Resilience.ino",
     "board": "esp32:esp32:esp32",
     "passed": true,
-    "source_sha256": "3c14752f6427ed2dce1a923532f6d1143b8fe322216c88478159aa3180415c3e",
-    "log": "docs/build-logs/14.3_Resilience/compile.txt"
+    "source_sha256": "f24f3ec98bfc12a85e5ce31c43343d9d067dc1ff5ae3547aaece6c55179e415a",
+    "log": "docs/build-logs/14.3_Resilience/compile.txt",
+    "source_sha256_normalization": "LF"
   }
 ]

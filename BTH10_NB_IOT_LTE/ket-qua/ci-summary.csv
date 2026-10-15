@@ -1,0 +1,7 @@
+case,flows,txPackets,rxPackets,delivery_ratio,mean_delay_ms
+ue1-distance20-time10,1,90,90,1.0,14.0
+ue5-distance20-time10,5,450,450,1.0,16.0
+ue10-distance20-time10,10,900,900,1.0,18.5
+ue1-distance100-time10,1,90,90,1.0,14.0
+ue1-distance500-time10,1,90,90,1.0,14.0
+ue1-distance20-time20,1,190,190,1.0,14.0

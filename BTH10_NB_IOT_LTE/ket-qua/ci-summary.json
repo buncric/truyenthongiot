@@ -1,0 +1,55 @@
+{
+  "source_run": "https://github.com/buncric/truyenthongiot/actions/runs/38747166217",
+  "source_commit": "f80cf0b1ac28b378bfbb1676f75ce32d111612a4",
+  "collection": "GitHub check annotations: LTE measured result",
+  "results": [
+    {
+      "case": "ue1-distance20-time10",
+      "flows": 1,
+      "txPackets": 90,
+      "rxPackets": 90,
+      "delivery_ratio": 1.0,
+      "mean_delay_ms": 14.0
+    },
+    {
+      "case": "ue5-distance20-time10",
+      "flows": 5,
+      "txPackets": 450,
+      "rxPackets": 450,
+      "delivery_ratio": 1.0,
+      "mean_delay_ms": 16.0
+    },
+    {
+      "case": "ue10-distance20-time10",
+      "flows": 10,
+      "txPackets": 900,
+      "rxPackets": 900,
+      "delivery_ratio": 1.0,
+      "mean_delay_ms": 18.5
+    },
+    {
+      "case": "ue1-distance100-time10",
+      "flows": 1,
+      "txPackets": 90,
+      "rxPackets": 90,
+      "delivery_ratio": 1.0,
+      "mean_delay_ms": 14.0
+    },
+    {
+      "case": "ue1-distance500-time10",
+      "flows": 1,
+      "txPackets": 90,
+      "rxPackets": 90,
+      "delivery_ratio": 1.0,
+      "mean_delay_ms": 14.0
+    },
+    {
+      "case": "ue1-distance20-time20",
+      "flows": 1,
+      "txPackets": 190,
+      "rxPackets": 190,
+      "delivery_ratio": 1.0,
+      "mean_delay_ms": 14.0
+    }
+  ]
+}

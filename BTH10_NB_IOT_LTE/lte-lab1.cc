@@ -1,4 +1,4 @@
-// LTE/EPC baseline, not an NB-IoT radio model. Tested API target: ns-3.43.
+// LTE/EPC baseline, not an NB-IoT radio model. Local install guide targets ns-3.43.
 #include "ns3/core-module.h"
 #include "ns3/network-module.h"
 #include "ns3/internet-module.h"

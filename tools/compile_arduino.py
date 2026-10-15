@@ -24,7 +24,7 @@ def main():
         if r.returncode==0 and board=='arduino:avr:uno':
             firmware=p.parent/'firmware';firmware.mkdir(exist_ok=True)
             for binary in dest.glob('*.hex'):shutil.copy2(binary,firmware/binary.name)
-        row={'sketch':relative,'board':board,'passed':r.returncode==0,'source_sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'log':str((dest/'compile.log').relative_to(ROOT)).replace('\\','/')}
+        row={'sketch':relative,'board':board,'passed':r.returncode==0,'source_sha256':hashlib.sha256(p.read_bytes().replace(b'\r\n',b'\n')).hexdigest(),'source_sha256_normalization':'LF','log':str((dest/'compile.log').relative_to(ROOT)).replace('\\','/')}
         print(('PASS ' if row['passed'] else 'FAIL ')+relative,flush=True);return row
     selected=[t for t in targets() if args.filter in str(t[0])]
     with concurrent.futures.ThreadPoolExecutor(max_workers=args.jobs) as pool:results=list(pool.map(compile_one,selected))

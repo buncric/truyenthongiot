@@ -21,7 +21,7 @@
 - Bài2 và5 ghi số bài nhỏ1.x; repo chuẩn hóa thành2.x và5.x. MụcI²C ởUART trùng3.1, giữ một triển khai và dẫn liên kết.
 - Thư mục cũ mang tênSPI_I2C nhưng chứaUART được lưu trữ nguyên trạng; không gọiUART làSPI.
 - HC05/06 làSPP, web dùng backendSerial. RX củaESP/HC05 vàKEY cần đúng mức3.3V.
-- Báo thức sửa buffer định dạng để không tràn bộ nhớ; giữ nguyên code người dùng ởproject-goc để đối chiếu.
+- Báo thức dùng snprintf và buffer32byte để giới hạn khi mở rộng; định dạng hiện tại dài nhất16ký tự, vẫn vừa buffer17byte gốc. Code người dùng giữ trong project-goc để đối chiếu.
 - Bài4 thống nhất tài khoản IoTServer và mật khẩuWPA2 tối thiểu8ký tự; trạng thái camera mô phỏng không được coi là video thật.
 - Cài HA mới dùngHAOS vìSupervised hết hỗ trợ; đề gốc vẫn được bảo toàn để đối chiếu lịch sử.
 - ESP8266 OTA mặc định8266, ESP32 là3232; capture unicast cần đúng điểm mạng, không chỉ cùngLAN.

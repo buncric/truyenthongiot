@@ -7,6 +7,11 @@ CASES=[(1,20,10),(5,20,10),(10,20,10),(1,100,10),(1,500,10),(1,20,20)]
 def main():
     p=argparse.ArgumentParser();p.add_argument('--binary',required=True);p.add_argument('--output',default=str(ROOT/'artifacts/lte'));a=p.parse_args()
     binary=Path(a.binary).resolve();out=Path(a.output).resolve();out.mkdir(parents=True,exist_ok=True)
+    environment={'runner':os.environ.get('RUNNER_OS','local'),'platform':os.uname().sysname if hasattr(os,'uname') else os.name}
+    try:environment['ns3_version']=subprocess.check_output(['pkg-config','--modversion','ns3-core'],text=True).strip()
+    except (FileNotFoundError,subprocess.CalledProcessError):environment['ns3_version']='see local build tag'
+    (out/'environment.json').write_text(json.dumps(environment,indent=2),encoding='utf-8')
+    if os.environ.get('GITHUB_ACTIONS'):print('::notice title=LTE environment::'+json.dumps(environment),flush=True)
     aggregate=[]
     for n,duration_distance,t in CASES:
         name=f'ue{n}-distance{duration_distance}-time{t}';dest=out/name;dest.mkdir(exist_ok=True)

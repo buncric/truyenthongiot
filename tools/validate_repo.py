@@ -6,7 +6,8 @@ LABS=['BTH02_UART','BTH03_SPI_I2C','BTH04_ETHERNET_TCPIP','BTH05_BLUETOOTH','BTH
 errors=[];documents=[];steps=0
 for lab in LABS:
     assert (ROOT/lab/'README.md').is_file(),lab
-    for md in (ROOT/lab).glob('*.md'):
+    for md in (ROOT/lab).rglob('*.md'):
+        if 'project-goc' in md.parts:continue
         documents.append(md)
         if re.fullmatch(r'\d+\.\d+\.md',md.name):
             text=md.read_text(encoding='utf-8');count=len(re.findall(r'^### Bước ',text,re.M));figures=len(re.findall(r'!\[Bước ',text))

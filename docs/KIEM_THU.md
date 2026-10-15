@@ -7,6 +7,7 @@ Ghi nhận ngày 15/10/2026. Không coi compile/test trên PC là bằng chứng
 | Kiểm tra | Kết quả |
 |---|---|
 | Arduino CLI: 21 sketch mới | PASS compile/link cho board liệt kê dưới đây |
+| NS-3 Linux GitHub Actions | PASS compile +6 cấu hình LTE; [số liệu và nguồn](../BTH10_NB_IOT_LTE/ket-qua/README.md) |
 | Node.js syntax (`npm run check`) | PASS |
 | Web Bluetooth backend ở chế độ DEMO | PASS HTTP connect/disconnect, kiểm tra lệnh, lỗi trạng thái và luồng WebSocket |
 | CoAP server/client chạy UDP thật trên loopback | PASS CON/NON, 4.04, Observe ít nhất hai notification |
@@ -25,7 +26,7 @@ Node integration test dùng socket thật; dữ liệu nhiệt độ của demo 
 - Chưa upload/nạp board qua COM, chưa đo LED/DHT/RTC/MAX7219 hoặc điện áp ngoài mạch.
 - Chưa mở/chạy GUI Proteus và Packet Tracer trong phiên này. File người dùng cung cấp được giữ nguyên; các bài4.2/4.3 có hướng dẫn và bảng conditions nhưng chưa có bản Save As .pkt hoàn tất được xác nhận.
 - Chưa cài Debian/HAOS vào VM, ghép dongle/thiết bị Zigbee, thu pcap Zigbee hoặc Wi-Fi thật.
-- Chưa chạy NS-3 Linux cục bộ. Workflow GitHub có job build/run LTE riêng; kiểm tra trạng thái job và artifact trên Actions sau push. Không có số liệu LTE tự tạo.
+- NS-3 chưa chạy Linux cục bộ, nhưng đã build/run thành công trên GitHub Actions. Bảng số liệu mô phỏng thật và đường dẫn artifact nằm trong bài10; không thay cho đo mạng LTE/NB-IoT thực.
 - Chưa có broker/chứng chỉ lab thật để đo TLS handshake; chưa kiểm tra replay/NVS/watchdog trên board.
 
 ## Môi trường compile Arduino

@@ -1,6 +1,6 @@
 # Bài thực hành 10 - NB-IoT / LTE
 
-Đã viết mã nguồn hoàn chỉnh có lưu lượng thật trong mô hình. Chưa chạy NS-3 trên Linux trong phiên này; xem KIEM_THU.md.
+Đã viết mã nguồn hoàn chỉnh có lưu lượng thật trong mô hình. Đã build/run trên Linux GitHub Actions, đủ6 cấu hình; [xem kết quả](ket-qua/README.md). Chưa chạy trên Linux cục bộ; xem KIEM_THU.md.
 
 ## Các bài thực hành
 
