@@ -1,0 +1,7 @@
+CoAP 127.0.0.1:5683; simulated temperature
+FORWARD request MID 9552
+POST /sensor/temp temp=30.5;simulated=true
+DROP reply MID 9552
+FORWARD request MID 9552
+2026-10-15T17:41:03.615Z RETRY_RESULT 2.04 OK
+2026-10-15T17:41:03.616Z EXPERIMENT_PASS 13.1-retry

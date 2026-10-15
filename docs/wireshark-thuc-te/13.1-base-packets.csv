@@ -1,0 +1,5 @@
+﻿frame.number,frame.time_relative,ip.src,ip.dst,tcp.srcport,tcp.dstport,udp.srcport,udp.dstport,coap.type,coap.code,coap.mid,coap.token,coap.opt.observe,coap.opt.block_number,coap.opt.block_mflag,coap.opt.block_size,coap.block_payload,mqtt.msgtype,mqtt.clientid,mqtt.topic,mqtt.msg,mqtt.retain,tls.handshake.type,tls.record.content_type,_ws.col.Info
+1,0.000000000,127.0.0.1,127.0.0.1,,,50840,5683,1,2,46424,d1d751b5fa0f1c77,,,,,,,,,,,,,"NON, MID:46424, POST, TKN:d1 d7 51 b5 fa 0f 1c 77, /sensor/temp"
+2,0.002095000,127.0.0.1,127.0.0.1,,,5683,50840,1,68,46424,d1d751b5fa0f1c77,,,,,,,,,,,,,"NON, MID:46424, 2.04 Changed, TKN:d1 d7 51 b5 fa 0f 1c 77, /sensor/temp"
+3,0.319034900,127.0.0.1,127.0.0.1,,,50841,5683,0,2,147,899682fe6b8ef716,,,,,,,,,,,,,"CON, MID:147, POST, TKN:89 96 82 fe 6b 8e f7 16, /sensor/temp"
+4,0.319673000,127.0.0.1,127.0.0.1,,,5683,50841,2,68,147,899682fe6b8ef716,,,,,,,,,,,,,"ACK, MID:147, 2.04 Changed, TKN:89 96 82 fe 6b 8e f7 16, /sensor/temp"

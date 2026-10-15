@@ -1,0 +1,11 @@
+{
+  "case": "12.3",
+  "interface": "Npcap loopback",
+  "filter": "tcp port 1883 or tcp port 8883",
+  "started_utc": "2026-10-15T17:41:27.628773+00:00",
+  "duration_limit_s": 5,
+  "frames": 77,
+  "sha256": "04ebe897b23b6b3def4324d3f0eec6b3c05ad192f913d44ae975de89c693f040",
+  "source": "real PC application sockets; no physical ESP or HA",
+  "result": "PASS"
+}

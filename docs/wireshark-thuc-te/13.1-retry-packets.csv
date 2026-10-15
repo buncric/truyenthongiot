@@ -1,0 +1,8 @@
+﻿frame.number,frame.time_relative,ip.src,ip.dst,tcp.srcport,tcp.dstport,udp.srcport,udp.dstport,coap.type,coap.code,coap.mid,coap.token,coap.opt.observe,coap.opt.block_number,coap.opt.block_mflag,coap.opt.block_size,coap.block_payload,mqtt.msgtype,mqtt.clientid,mqtt.topic,mqtt.msg,mqtt.retain,tls.handshake.type,tls.record.content_type,_ws.col.Info
+1,0.000000000,127.0.0.1,127.0.0.1,,,50842,5684,0,2,9552,b7475cf546503b15,,,,,,,,,,,,,"CON, MID:9552, POST, TKN:b7 47 5c f5 46 50 3b 15, /sensor/temp"
+2,0.001695100,127.0.0.1,127.0.0.1,,,50843,5683,0,2,9552,b7475cf546503b15,,,,,,,,,,,,,"CON, MID:9552, POST, TKN:b7 47 5c f5 46 50 3b 15, /sensor/temp"
+3,0.003805700,127.0.0.1,127.0.0.1,,,5683,50843,2,68,9552,b7475cf546503b15,,,,,,,,,,,,,"ACK, MID:9552, 2.04 Changed, TKN:b7 47 5c f5 46 50 3b 15, /sensor/temp"
+4,2.199484200,127.0.0.1,127.0.0.1,,,50842,5684,0,2,9552,b7475cf546503b15,,,,,,,,,,,,,"CON, MID:9552, POST, TKN:b7 47 5c f5 46 50 3b 15, /sensor/temp [Retransmission]"
+5,2.199758700,127.0.0.1,127.0.0.1,,,50843,5683,0,2,9552,b7475cf546503b15,,,,,,,,,,,,,"CON, MID:9552, POST, TKN:b7 47 5c f5 46 50 3b 15, /sensor/temp [Retransmission]"
+6,2.200042800,127.0.0.1,127.0.0.1,,,5683,50843,2,68,9552,b7475cf546503b15,,,,,,,,,,,,,"ACK, MID:9552, 2.04 Changed, TKN:b7 47 5c f5 46 50 3b 15, /sensor/temp"
+7,2.200117300,127.0.0.1,127.0.0.1,,,5684,50842,2,68,9552,b7475cf546503b15,,,,,,,,,,,,,"ACK, MID:9552, 2.04 Changed, TKN:b7 47 5c f5 46 50 3b 15, /sensor/temp"

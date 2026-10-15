@@ -1,0 +1,11 @@
+{
+  "case": "13.3",
+  "interface": "Npcap loopback",
+  "filter": "udp port 5683 or udp port 5684",
+  "started_utc": "2026-10-15T17:41:09.357528+00:00",
+  "duration_limit_s": 5,
+  "frames": 32,
+  "sha256": "61c6e7800712b4ee9738d6bf9ade11663aae8e99bd26464b75b942f50af7db37",
+  "source": "real PC application sockets; no physical ESP or HA",
+  "result": "PASS"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "iot-wire-capture-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bounded loopback MQTT experiments for genuine Wireshark captures",
+  "dependencies": { "aedes": "0.51.3", "mqtt": "5.14.1" }
+}

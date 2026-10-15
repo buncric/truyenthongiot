@@ -16,6 +16,13 @@ for lab in LABS:
 documents.extend([ROOT/'README.md',*list((ROOT/'docs').glob('*.md')),*list((ROOT/'tai-lieu-goc').glob('*.md'))])
 documents.extend([ROOT/'mo-phong-3d/README.md',*list((ROOT/'docs/giao-dien-goc').glob('*.md')),*list((ROOT/'docs/linh-kien').glob('*.md'))])
 scene_manifest=ROOT/'mo-phong-3d/manifest.json'
+wire=ROOT/'docs/wireshark-thuc-te'
+documents.append(wire/'README.md')
+for manifest,suffix,key in [('capture-report.json','.pcapng','case'),('screenshots.json','','file')]:
+    for row in json.loads((wire/manifest).read_text(encoding='utf-8')):
+        asset=wire/(row[key]+suffix)
+        if not asset.is_file() or hashlib.sha256(asset.read_bytes()).hexdigest()!=row['sha256']:
+            errors.append(f'Wireshark evidence missing or changed: {asset.name}')
 if scene_manifest.exists():
     scenes=json.loads(scene_manifest.read_text(encoding='utf-8'))
     catalog=json.loads((ROOT/'docs/catalog.json').read_text(encoding='utf-8'))

@@ -18,6 +18,7 @@ Cập nhật ngày 16/10/2026. Không coi compile/test trên PC là bằng chứ
 | SerialPort native binding Windows | PASS load và liệt kê được cổng; chưa mở cổng thiết bị để tránh chiếm phiên đang dùng |
 | npm audit sau cập nhật ws8.22.0 | 0 vulnerability được báo ở thời điểm kiểm tra |
 | Tài liệu | 31 mục chính, 139 hình theo bước (132 render Blender + 7 ảnh thao tác 8.1), 2 ảnh mạch thật 8.1; kiểm tra liên kết và SHA256 của 13 PDF nguồn |
+| Wireshark/Npcap trên PC | PASS 11 capture / 587 frame; 18 ảnh cửa sổ Wireshark thật; kiểm tra nội dung giao thức, SHA256 PCAPNG và ảnh |
 
 Node integration test dùng socket thật; dữ liệu nhiệt độ của demo là mô phỏng. Fixture XML của unittest chỉ dùng kiểm tra công thức, không được xuất như kết quả LTE đo thật.
 
@@ -27,7 +28,15 @@ Node integration test dùng socket thật; dữ liệu nhiệt độ của demo 
 - Chưa mở/chạy GUI Proteus và Packet Tracer trong phiên này. File người dùng cung cấp được giữ nguyên; các bài4.2/4.3 có hướng dẫn và bảng conditions nhưng chưa có bản Save As .pkt hoàn tất được xác nhận.
 - Chưa cài Debian/HAOS vào VM, ghép dongle/thiết bị Zigbee, thu pcap Zigbee hoặc Wi-Fi thật.
 - NS-3 chưa chạy Linux cục bộ, nhưng đã build/run thành công trên GitHub Actions. Bảng số liệu mô phỏng thật và đường dẫn artifact nằm trong bài10; không thay cho đo mạng LTE/NB-IoT thực.
-- Chưa có broker/chứng chỉ lab thật để đo TLS handshake; chưa kiểm tra replay/NVS/watchdog trên board.
+- Đã đo TLS handshake và thử replay/kết nối lại trên PC với broker cục bộ và chứng chỉ tự sinh; chưa kiểm tra TLS/replay/NVS/watchdog trên board.
+
+## Bắt gói và ảnh Wireshark ngày 16/10/2026
+
+[Bộ ảnh, PCAPNG, log và hướng dẫn mở từng frame](wireshark-thuc-te/README.md) được gắn trực tiếp vào 9 bài 12.1–12.3, 13.1–13.3 và 14.1–14.3. [analysis.json](wireshark-thuc-te/analysis.json) lưu kết quả phân tích 11 capture, tất cả PASS: MQTT topic/QoS, Retain/Last Will, CoAP retransmission cùng MID/token, Polling 60 gói so với Observe 24 gói trong cửa sổ ứng dụng 60 giây, Block2 ghép đủ 2048 byte, MQTT plaintext/TLS, từ chối lệnh replay và hai lần CONNECT cùng ClientID.
+
+TShark 4.6.9 bắt TCP/UDP thật trên Npcap Loopback; ảnh lấy nguyên cửa sổ Wireshark khi mở các capture này. Broker Aedes 0.51.3, MQTT.js 5.14.1, coap 1.4.1, Node 24.19.0. Thiết bị/cảm biến/dashboard là chương trình PC; chứng chỉ và khóa riêng thử nghiệm để ngoài repo. Chưa có capture từ ESP/Home Assistant hoặc USB sniffer Zigbee. Hai IP trong ảnh cũ chưa truy cập được tại thời điểm kiểm tra, chưa đủ kết luận thiết bị không có trên mạng.
+
+`python tools/wireshark/analyze.py` phân tích lại bằng TShark. `python tools/validate_repo.py` kiểm tra SHA256 của ảnh và PCAPNG mà không cần cài Wireshark trên CI. Cách cài dependency, sinh chứng chỉ và bắt lại được ghi trong bộ hướng dẫn trên.
 
 ## Môi trường compile Arduino
 

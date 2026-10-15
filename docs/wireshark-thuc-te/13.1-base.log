@@ -1,0 +1,6 @@
+CoAP 127.0.0.1:5683; simulated temperature
+POST /sensor/temp temp=30.5;simulated=true
+2026-10-15T17:40:56.407Z NON 2.04 OK
+POST /sensor/temp temp=30.5;simulated=true
+2026-10-15T17:40:56.724Z CON 2.04 OK
+2026-10-15T17:40:57.042Z EXPERIMENT_PASS 13.1-base

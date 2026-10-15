@@ -1,0 +1,491 @@
+[
+  {
+    "case": "12.1",
+    "frames": 54,
+    "coap_packets": 0,
+    "mqtt_publish_packets": 6,
+    "tls_packets": 0,
+    "messages": [
+      {
+        "frame": "19",
+        "topic": "iot/lab1/sv01/sensor",
+        "text": "{\"temp\":28,\"hum\":65,\"simulated\":true,\"source\":\"PC\"}",
+        "retain": "False"
+      },
+      {
+        "frame": "23",
+        "topic": "iot/lab1/sv01/sensor",
+        "text": "{\"temp\":28,\"hum\":65,\"simulated\":true,\"source\":\"PC\"}",
+        "retain": "False"
+      },
+      {
+        "frame": "27",
+        "topic": "iot/lab1/sv01/sensor",
+        "text": "{\"temp\":28.5,\"hum\":65,\"simulated\":true,\"source\":\"PC\"}",
+        "retain": "False"
+      },
+      {
+        "frame": "31",
+        "topic": "iot/lab1/sv01/sensor",
+        "text": "{\"temp\":28.5,\"hum\":65,\"simulated\":true,\"source\":\"PC\"}",
+        "retain": "False"
+      },
+      {
+        "frame": "35",
+        "topic": "iot/lab1/sv01/sensor",
+        "text": "{\"temp\":29,\"hum\":65,\"simulated\":true,\"source\":\"PC\"}",
+        "retain": "False"
+      },
+      {
+        "frame": "39",
+        "topic": "iot/lab1/sv01/sensor",
+        "text": "{\"temp\":29,\"hum\":65,\"simulated\":true,\"source\":\"PC\"}",
+        "retain": "False"
+      }
+    ],
+    "verification": "PASS"
+  },
+  {
+    "case": "12.2",
+    "frames": 62,
+    "coap_packets": 0,
+    "mqtt_publish_packets": 8,
+    "tls_packets": 0,
+    "messages": [
+      {
+        "frame": "23",
+        "topic": "iot/lab2/sv01/cmd",
+        "text": "ON",
+        "retain": "False"
+      },
+      {
+        "frame": "27",
+        "topic": "iot/lab2/sv01/cmd",
+        "text": "ON",
+        "retain": "False"
+      },
+      {
+        "frame": "29",
+        "topic": "iot/lab2/sv01/state",
+        "text": "ON",
+        "retain": "False"
+      },
+      {
+        "frame": "33",
+        "topic": "iot/lab2/sv01/state",
+        "text": "ON",
+        "retain": "False"
+      },
+      {
+        "frame": "37",
+        "topic": "iot/lab2/sv01/cmd",
+        "text": "OFF",
+        "retain": "False"
+      },
+      {
+        "frame": "41",
+        "topic": "iot/lab2/sv01/cmd",
+        "text": "OFF",
+        "retain": "False"
+      },
+      {
+        "frame": "43",
+        "topic": "iot/lab2/sv01/state",
+        "text": "OFF",
+        "retain": "False"
+      },
+      {
+        "frame": "47",
+        "topic": "iot/lab2/sv01/state",
+        "text": "OFF",
+        "retain": "False"
+      }
+    ],
+    "verification": "PASS"
+  },
+  {
+    "case": "12.3",
+    "frames": 77,
+    "coap_packets": 0,
+    "mqtt_publish_packets": 8,
+    "tls_packets": 0,
+    "messages": [
+      {
+        "frame": "19",
+        "topic": "iot/lab3/sv01/status",
+        "text": "online",
+        "retain": "True"
+      },
+      {
+        "frame": "23",
+        "topic": "iot/lab3/sv01/state",
+        "text": "ON",
+        "retain": "True"
+      },
+      {
+        "frame": "25",
+        "topic": "iot/lab3/sv01/status",
+        "text": "online",
+        "retain": "False"
+      },
+      {
+        "frame": "34",
+        "topic": "iot/lab3/sv01/state",
+        "text": "ON",
+        "retain": "False"
+      },
+      {
+        "frame": "46",
+        "topic": "iot/lab3/sv01/status",
+        "text": "online",
+        "retain": "True"
+      },
+      {
+        "frame": "50",
+        "topic": "iot/lab3/sv01/state",
+        "text": "ON",
+        "retain": "True"
+      },
+      {
+        "frame": "58",
+        "topic": "iot/lab3/sv01/status",
+        "text": "offline",
+        "retain": "False"
+      },
+      {
+        "frame": "60",
+        "topic": "iot/lab3/sv01/status",
+        "text": "offline",
+        "retain": "False"
+      }
+    ],
+    "verification": "PASS"
+  },
+  {
+    "case": "13.1-base",
+    "frames": 4,
+    "coap_packets": 4,
+    "mqtt_publish_packets": 0,
+    "tls_packets": 0,
+    "result": "NON POST + NON response; CON POST + ACK response",
+    "verification": "PASS"
+  },
+  {
+    "case": "13.1-retry",
+    "frames": 7,
+    "coap_packets": 7,
+    "mqtt_publish_packets": 0,
+    "tls_packets": 0,
+    "mid": "9552",
+    "retry_delay_s": 2.199484,
+    "request_frames": [
+      "1",
+      "4"
+    ],
+    "verification": "PASS"
+  },
+  {
+    "case": "13.2-observe",
+    "frames": 24,
+    "coap_packets": 24,
+    "mqtt_publish_packets": 0,
+    "tls_packets": 0,
+    "get_requests": 1,
+    "content_responses": 12,
+    "initial_responses": 1,
+    "subsequent_notifications": 11,
+    "empty_acks": 11,
+    "application_window_s": 60,
+    "token": "d6d72a92e60bd4a1",
+    "verification": "PASS"
+  },
+  {
+    "case": "13.2-poll",
+    "frames": 60,
+    "coap_packets": 60,
+    "mqtt_publish_packets": 0,
+    "tls_packets": 0,
+    "get_requests": 30,
+    "content_responses": 30,
+    "application_window_s": 60,
+    "verification": "PASS"
+  },
+  {
+    "case": "13.3",
+    "frames": 32,
+    "coap_packets": 32,
+    "mqtt_publish_packets": 0,
+    "tls_packets": 0,
+    "blocks": 16,
+    "block_size_bytes": 128,
+    "reassembled_bytes": 2048,
+    "payload_sha256": "3a34c8dc4aec1554c04e0d0e61179d08362b329029db4632f5f086c37be74caa",
+    "verification": "PASS"
+  },
+  {
+    "case": "14.1",
+    "frames": 40,
+    "coap_packets": 0,
+    "mqtt_publish_packets": 1,
+    "tls_packets": 3,
+    "messages": [
+      {
+        "frame": "8",
+        "topic": "iot/security/sv01/sensor",
+        "text": "{\"simulated\":true,\"transport\":\"plaintext\",\"temp\":28.5}",
+        "retain": "False"
+      }
+    ],
+    "verification": "PASS"
+  },
+  {
+    "case": "14.2",
+    "frames": 50,
+    "coap_packets": 0,
+    "mqtt_publish_packets": 6,
+    "tls_packets": 0,
+    "messages": [
+      {
+        "frame": "19",
+        "topic": "iot/security/sv01/cmd",
+        "text": "{\"cmd\":\"OPEN\",\"time\":1792086100,\"nonce\":\"1caf8f078e233960\",\"seq\":1,\"mac\":\"0170a61a399a3bb5b1ac357707e4a498b68dac9b77f10891da0c06e722f59986\"}",
+        "retain": "False"
+      },
+      {
+        "frame": "23",
+        "topic": "iot/security/sv01/cmd",
+        "text": "{\"cmd\":\"OPEN\",\"time\":1792086100,\"nonce\":\"1caf8f078e233960\",\"seq\":1,\"mac\":\"0170a61a399a3bb5b1ac357707e4a498b68dac9b77f10891da0c06e722f59986\"}",
+        "retain": "False"
+      },
+      {
+        "frame": "25",
+        "topic": "iot/security/sv01/result",
+        "text": "ACCEPT",
+        "retain": "False"
+      },
+      {
+        "frame": "29",
+        "topic": "iot/security/sv01/cmd",
+        "text": "{\"cmd\":\"OPEN\",\"time\":1792086100,\"nonce\":\"1caf8f078e233960\",\"seq\":1,\"mac\":\"0170a61a399a3bb5b1ac357707e4a498b68dac9b77f10891da0c06e722f59986\"}",
+        "retain": "False"
+      },
+      {
+        "frame": "33",
+        "topic": "iot/security/sv01/cmd",
+        "text": "{\"cmd\":\"OPEN\",\"time\":1792086100,\"nonce\":\"1caf8f078e233960\",\"seq\":1,\"mac\":\"0170a61a399a3bb5b1ac357707e4a498b68dac9b77f10891da0c06e722f59986\"}",
+        "retain": "False"
+      },
+      {
+        "frame": "35",
+        "topic": "iot/security/sv01/result",
+        "text": "REJECT replay/stale/MAC",
+        "retain": "False"
+      }
+    ],
+    "identical_replayed_command": true,
+    "verification": "PASS"
+  },
+  {
+    "case": "14.3",
+    "frames": 177,
+    "coap_packets": 0,
+    "mqtt_publish_packets": 32,
+    "tls_packets": 0,
+    "messages": [
+      {
+        "frame": "23",
+        "topic": "iot/resilience/sv01/cmd",
+        "text": "OFF",
+        "retain": "False"
+      },
+      {
+        "frame": "27",
+        "topic": "iot/resilience/sv01/cmd",
+        "text": "OFF",
+        "retain": "False"
+      },
+      {
+        "frame": "29",
+        "topic": "iot/resilience/sv01/cmd",
+        "text": "OFF",
+        "retain": "False"
+      },
+      {
+        "frame": "35",
+        "topic": "iot/resilience/sv01/cmd",
+        "text": "ON",
+        "retain": "False"
+      },
+      {
+        "frame": "39",
+        "topic": "iot/resilience/sv01/cmd",
+        "text": "ON",
+        "retain": "False"
+      },
+      {
+        "frame": "41",
+        "topic": "iot/resilience/sv01/cmd",
+        "text": "ON",
+        "retain": "False"
+      },
+      {
+        "frame": "47",
+        "topic": "iot/resilience/sv01/cmd",
+        "text": "OFF",
+        "retain": "False"
+      },
+      {
+        "frame": "51",
+        "topic": "iot/resilience/sv01/cmd",
+        "text": "OFF",
+        "retain": "False"
+      },
+      {
+        "frame": "53",
+        "topic": "iot/resilience/sv01/cmd",
+        "text": "OFF",
+        "retain": "False"
+      },
+      {
+        "frame": "59",
+        "topic": "iot/resilience/sv01/cmd",
+        "text": "ON",
+        "retain": "False"
+      },
+      {
+        "frame": "63",
+        "topic": "iot/resilience/sv01/cmd",
+        "text": "ON",
+        "retain": "False"
+      },
+      {
+        "frame": "65",
+        "topic": "iot/resilience/sv01/cmd",
+        "text": "ON",
+        "retain": "False"
+      },
+      {
+        "frame": "71",
+        "topic": "iot/resilience/sv01/cmd",
+        "text": "OFF",
+        "retain": "False"
+      },
+      {
+        "frame": "75",
+        "topic": "iot/resilience/sv01/cmd",
+        "text": "OFF",
+        "retain": "False"
+      },
+      {
+        "frame": "77",
+        "topic": "iot/resilience/sv01/cmd",
+        "text": "OFF",
+        "retain": "False"
+      },
+      {
+        "frame": "83",
+        "topic": "iot/resilience/sv01/cmd",
+        "text": "ON",
+        "retain": "False"
+      },
+      {
+        "frame": "87",
+        "topic": "iot/resilience/sv01/cmd",
+        "text": "ON",
+        "retain": "False"
+      },
+      {
+        "frame": "89",
+        "topic": "iot/resilience/sv01/cmd",
+        "text": "ON",
+        "retain": "False"
+      },
+      {
+        "frame": "95",
+        "topic": "iot/resilience/sv01/cmd",
+        "text": "OFF",
+        "retain": "False"
+      },
+      {
+        "frame": "99",
+        "topic": "iot/resilience/sv01/cmd",
+        "text": "OFF",
+        "retain": "False"
+      },
+      {
+        "frame": "101",
+        "topic": "iot/resilience/sv01/cmd",
+        "text": "OFF",
+        "retain": "False"
+      },
+      {
+        "frame": "107",
+        "topic": "iot/resilience/sv01/cmd",
+        "text": "ON",
+        "retain": "False"
+      },
+      {
+        "frame": "111",
+        "topic": "iot/resilience/sv01/cmd",
+        "text": "ON",
+        "retain": "False"
+      },
+      {
+        "frame": "113",
+        "topic": "iot/resilience/sv01/cmd",
+        "text": "ON",
+        "retain": "False"
+      },
+      {
+        "frame": "119",
+        "topic": "iot/resilience/sv01/cmd",
+        "text": "OFF",
+        "retain": "False"
+      },
+      {
+        "frame": "123",
+        "topic": "iot/resilience/sv01/cmd",
+        "text": "OFF",
+        "retain": "False"
+      },
+      {
+        "frame": "125",
+        "topic": "iot/resilience/sv01/cmd",
+        "text": "OFF",
+        "retain": "False"
+      },
+      {
+        "frame": "131",
+        "topic": "iot/resilience/sv01/cmd",
+        "text": "ON",
+        "retain": "False"
+      },
+      {
+        "frame": "135",
+        "topic": "iot/resilience/sv01/cmd",
+        "text": "ON",
+        "retain": "False"
+      },
+      {
+        "frame": "137",
+        "topic": "iot/resilience/sv01/cmd",
+        "text": "ON",
+        "retain": "False"
+      },
+      {
+        "frame": "156",
+        "topic": "iot/resilience/sv01/state",
+        "text": "online",
+        "retain": "False"
+      },
+      {
+        "frame": "162",
+        "topic": "iot/resilience/sv01/state",
+        "text": "online",
+        "retain": "False"
+      }
+    ],
+    "test_client_connect_count": 2,
+    "verification": "PASS"
+  }
+]

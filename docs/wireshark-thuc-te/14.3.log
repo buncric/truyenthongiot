@@ -1,0 +1,15 @@
+2026-10-15T17:41:46.957Z BROKER Aedes 0.51.3, loopback only. PC software clients, no ESP/HA hardware.
+2026-10-15T17:41:47.061Z PUBLISH pc-resilience-watch iot/resilience/sv01/cmd OFF
+2026-10-15T17:41:47.176Z PUBLISH pc-resilience-watch iot/resilience/sv01/cmd ON
+2026-10-15T17:41:47.292Z PUBLISH pc-resilience-watch iot/resilience/sv01/cmd OFF
+2026-10-15T17:41:47.408Z PUBLISH pc-resilience-watch iot/resilience/sv01/cmd ON
+2026-10-15T17:41:47.521Z PUBLISH pc-resilience-watch iot/resilience/sv01/cmd OFF
+2026-10-15T17:41:47.625Z PUBLISH pc-resilience-watch iot/resilience/sv01/cmd ON
+2026-10-15T17:41:47.729Z PUBLISH pc-resilience-watch iot/resilience/sv01/cmd OFF
+2026-10-15T17:41:47.838Z PUBLISH pc-resilience-watch iot/resilience/sv01/cmd ON
+2026-10-15T17:41:47.941Z PUBLISH pc-resilience-watch iot/resilience/sv01/cmd OFF
+2026-10-15T17:41:48.061Z PUBLISH pc-resilience-watch iot/resilience/sv01/cmd ON
+2026-10-15T17:41:48.175Z FAULT: terminate only test client socket
+2026-10-15T17:41:48.686Z RECONNECTED
+2026-10-15T17:41:48.688Z PUBLISH pc-reconnecting-client iot/resilience/sv01/state online
+2026-10-15T17:41:49.089Z EXPERIMENT_PASS 14.3

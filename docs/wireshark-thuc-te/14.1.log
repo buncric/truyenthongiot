@@ -1,0 +1,5 @@
+2026-10-15T17:41:34.825Z BROKER Aedes 0.51.3, loopback only. PC software clients, no ESP/HA hardware.
+2026-10-15T17:41:34.913Z PUBLISH pc-plaintext iot/security/sv01/sensor {"simulated":true,"transport":"plaintext","temp":28.5}
+2026-10-15T17:41:34.924Z PUBLISH pc-tls-verified iot/security/sv01/sensor {"simulated":true,"transport":"tls","temp":28.5}
+2026-10-15T17:41:35.287Z TLS CA verified; no trust store modification, no TLS key-log file.
+2026-10-15T17:41:35.288Z EXPERIMENT_PASS 14.1

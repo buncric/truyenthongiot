@@ -1,0 +1,6 @@
+2026-10-15T17:41:28.785Z BROKER Aedes 0.51.3, loopback only. PC software clients, no ESP/HA hardware.
+2026-10-15T17:41:28.871Z PUBLISH pc-will-device iot/lab3/sv01/status online
+2026-10-15T17:41:28.873Z PUBLISH pc-will-device iot/lab3/sv01/state ON
+2026-10-15T17:41:29.338Z FAULT: close TCP without MQTT DISCONNECT
+2026-10-15T17:41:29.340Z PUBLISH pc-will-device iot/lab3/sv01/status offline
+2026-10-15T17:41:30.004Z EXPERIMENT_PASS 12.3

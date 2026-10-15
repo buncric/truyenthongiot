@@ -1,0 +1,161 @@
+[
+  {
+    "file": "13.1-base.png",
+    "screenshot_id": "screenshot-0",
+    "width": 1536,
+    "height": 816,
+    "captured_utc": "2026-10-15T17:43:35.414Z",
+    "source": "Unmodified Wireshark window screenshot via computer-use",
+    "sha256": "e37b503bc5f54477fcdf1bc6026d3e4cd75c435ab43b7f219b13fc63a304be6d"
+  },
+  {
+    "file": "13.1-decode-as.png",
+    "screenshot_id": "screenshot-0",
+    "width": 1536,
+    "height": 816,
+    "captured_utc": "2026-10-15T17:48:13.243Z",
+    "source": "Unmodified Wireshark window screenshot via computer-use",
+    "sha256": "26ffeaa2c61365c1b0dee929bf94d53359598299738395ef2e4fe756a8447184"
+  },
+  {
+    "file": "13.1-retry.png",
+    "screenshot_id": "screenshot-0",
+    "width": 1536,
+    "height": 816,
+    "captured_utc": "2026-10-15T17:50:04.953Z",
+    "source": "Unmodified Wireshark window screenshot via computer-use",
+    "sha256": "3b3a319324948270f14ca5fdc356dd8a6c6d16e6e4cc1dee03cd36e55bb9b5ab"
+  },
+  {
+    "file": "13.3.png",
+    "screenshot_id": "screenshot-0",
+    "width": 1536,
+    "height": 816,
+    "captured_utc": "2026-10-15T18:10:25.033Z",
+    "source": "Unmodified Wireshark window screenshot via computer-use",
+    "sha256": "1f881b8ecd2b7589b4992a10a57c8206104906a53f5fb81eb40ad7b1989fc44b"
+  },
+  {
+    "file": "13.3-ghép-du-2048-byte.png",
+    "screenshot_id": "screenshot-0",
+    "width": 1536,
+    "height": 816,
+    "captured_utc": "2026-10-15T18:10:36.347Z",
+    "source": "Unmodified Wireshark window screenshot via computer-use",
+    "sha256": "2998bea3714363c12e651a69d173dea1fdaa72b2eaf9df8180777950e3e6212d"
+  },
+  {
+    "file": "13.2-poll.png",
+    "screenshot_id": "screenshot-0",
+    "width": 1536,
+    "height": 816,
+    "captured_utc": "2026-10-15T18:11:17.897Z",
+    "source": "Unmodified Wireshark window screenshot via computer-use",
+    "sha256": "76e3051524617288fe8b8253aacddcbc37d50446cf57fe7cc866e9a3266afbfb"
+  },
+  {
+    "file": "13.2-observe.png",
+    "screenshot_id": "screenshot-0",
+    "width": 1536,
+    "height": 816,
+    "captured_utc": "2026-10-15T18:12:07.233Z",
+    "source": "Unmodified Wireshark window screenshot via computer-use",
+    "sha256": "f0c50fb331450c78e80ca733fa79749b8bc446f6be8b9ca0a6b3d2712dd269d5"
+  },
+  {
+    "file": "12.1.png",
+    "screenshot_id": "screenshot-0",
+    "width": 1536,
+    "height": 816,
+    "captured_utc": "2026-10-15T18:13:21.587Z",
+    "source": "Unmodified Wireshark window screenshot via computer-use",
+    "sha256": "acc62406660897a9c95dcf49aa1a000042622312e72eaa6337df11a5a9d7964f"
+  },
+  {
+    "file": "12.2.png",
+    "screenshot_id": "screenshot-0",
+    "width": 1536,
+    "height": 816,
+    "captured_utc": "2026-10-15T18:14:49.689Z",
+    "source": "Unmodified Wireshark window screenshot via computer-use",
+    "sha256": "7c0e63cea5a81b521b73f47aeb7c93e72ed88d5d91bb0f5ef575220875d9f582"
+  },
+  {
+    "file": "12.3.png",
+    "screenshot_id": "screenshot-0",
+    "width": 1536,
+    "height": 816,
+    "captured_utc": "2026-10-15T18:16:07.105Z",
+    "source": "Unmodified Wireshark window screenshot via computer-use",
+    "sha256": "7a11237987b651d573c6e9aa3383d463ed87b81556334217698c516567e6a1e7"
+  },
+  {
+    "file": "12.3-last-will.png",
+    "screenshot_id": "screenshot-0",
+    "width": 1536,
+    "height": 816,
+    "captured_utc": "2026-10-15T18:16:34.508Z",
+    "source": "Unmodified Wireshark window screenshot via computer-use",
+    "sha256": "334cb5314e3e60d75de6babff44f71f76722cd1d1f9ea9758aa85801670c2b74"
+  },
+  {
+    "file": "14.1-plaintext.png",
+    "screenshot_id": "screenshot-0",
+    "width": 1536,
+    "height": 816,
+    "captured_utc": "2026-10-15T18:17:25.921Z",
+    "source": "Unmodified Wireshark window screenshot via computer-use",
+    "sha256": "b10cd8bbddc379b37a12bf4e860208ce0f3c728ed69d82243a60cca60db22c8e"
+  },
+  {
+    "file": "14.1.png",
+    "screenshot_id": "screenshot-0",
+    "width": 1536,
+    "height": 816,
+    "captured_utc": "2026-10-15T18:18:17.361Z",
+    "source": "Unmodified Wireshark window screenshot via computer-use",
+    "sha256": "c90c940774c266053009ea1b9baafcc52590775646d112e1676b17ef5d3acd5b"
+  },
+  {
+    "file": "14.2.png",
+    "screenshot_id": "screenshot-0",
+    "width": 1536,
+    "height": 816,
+    "captured_utc": "2026-10-15T18:19:28.795Z",
+    "source": "Unmodified Wireshark window screenshot via computer-use",
+    "sha256": "e55205150dcd5ab63f408013a1500ad4cf03d401d53874c546afba6c486dc246"
+  },
+  {
+    "file": "14.2-accept.png",
+    "screenshot_id": "screenshot-0",
+    "width": 1536,
+    "height": 816,
+    "captured_utc": "2026-10-15T18:19:54.996Z",
+    "source": "Unmodified Wireshark window screenshot via computer-use",
+    "sha256": "d474600cd9232e03050f896ad47012a6ac6295539f96dcedd6245d905b1a64bb"
+  },
+  {
+    "file": "14.3-ket-noi-dau.png",
+    "screenshot_id": "screenshot-0",
+    "width": 1536,
+    "height": 816,
+    "captured_utc": "2026-10-15T18:20:57.488Z",
+    "source": "Unmodified Wireshark window screenshot via computer-use",
+    "sha256": "75d5161e8d28f000358aa80acdbd93a6921a63f991e314523148a967a6206e10"
+  },
+  {
+    "file": "14.3.png",
+    "screenshot_id": "screenshot-0",
+    "width": 1536,
+    "height": 816,
+    "captured_utc": "2026-10-15T18:21:32.837Z",
+    "source": "Unmodified Wireshark window screenshot via computer-use",
+    "sha256": "9f97a48b10b233481ace79a9ded143a71a1796e74f600d55552f7f7ea5dd7d36"
+  },
+  {
+    "file": "00-giao-dien-wireshark.png",
+    "source": "Unmodified Wireshark window screenshot via computer-use",
+    "captured_utc": "2026-10-15T17:39:30.681950+00:00",
+    "sha256": "56eb3ef46ab74c9c59ddf19ee3d268f272fbc9126e9f60e0da035e36e865dd71"
+  }
+]

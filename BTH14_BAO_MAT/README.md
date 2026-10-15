@@ -1,5 +1,7 @@
 # Bài thực hành 14 - Bảo mật
 
+[Ảnh Wireshark thực tế và file PCAPNG](../docs/wireshark-thuc-te/README.md): MQTT plaintext/TLS, thử replay và phục hồi kết nối của client PC. Từng bài bên dưới có ảnh và số frame để đối chiếu.
+
 Firmware bảo mật nhắm ESP32 DevKit/core 3.x. Kịch bản lab có giới hạn, không triển khai deauth/jamming hay flood vô hạn.
 
 ## Các bài thực hành

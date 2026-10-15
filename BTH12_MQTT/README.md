@@ -1,5 +1,7 @@
 # Bài thực hành 12 - MQTT
 
+[Ảnh Wireshark thực tế và file PCAPNG](../docs/wireshark-thuc-te/README.md): telemetry, cmd/state, Retain và Last Will chạy qua broker trên PC. Từng bài bên dưới có ảnh và số frame để đối chiếu.
+
 Mỗi sketch có config.example.h; điền config.local.h riêng. Code không cần ArduinoJson cho dữ liệu mẫu vì JSON nhỏ được định dạng bằng snprintf.
 
 ## Các bài thực hành

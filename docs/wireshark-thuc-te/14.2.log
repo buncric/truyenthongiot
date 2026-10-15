@@ -1,0 +1,9 @@
+2026-10-15T17:41:40.783Z BROKER Aedes 0.51.3, loopback only. PC software clients, no ESP/HA hardware.
+2026-10-15T17:41:40.871Z PC_VERIFIER ACCEPT seq 1
+2026-10-15T17:41:40.871Z PUBLISH pc-command-sender iot/security/sv01/cmd {"cmd":"OPEN","time":1792086100,"nonce":"1caf8f078e233960","seq":1,"mac":"0170a61a399a3bb5b1ac357707e4a498b68dac9b77f10891da0c06e722f59986"}
+2026-10-15T17:41:40.871Z PUBLISH pc-hmac-verifier iot/security/sv01/result ACCEPT
+2026-10-15T17:41:41.275Z PC_VERIFIER REJECT replay/stale/MAC seq 1
+2026-10-15T17:41:41.275Z PUBLISH pc-command-sender iot/security/sv01/cmd {"cmd":"OPEN","time":1792086100,"nonce":"1caf8f078e233960","seq":1,"mac":"0170a61a399a3bb5b1ac357707e4a498b68dac9b77f10891da0c06e722f59986"}
+2026-10-15T17:41:41.285Z PUBLISH pc-hmac-verifier iot/security/sv01/result REJECT replay/stale/MAC
+2026-10-15T17:41:41.787Z Same payload replayed. This PC test does not validate ESP GPIO or NVS persistence.
+2026-10-15T17:41:41.787Z EXPERIMENT_PASS 14.2
