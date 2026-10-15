@@ -28,12 +28,8 @@ jobs:
       - name: Build and run LTE scenario
         run: |
           g++ -std=c++17 BTH10_NB_IOT_LTE/lte-lab1.cc -o /tmp/lte-lab1 $(pkg-config --cflags --libs ns3-core ns3-network ns3-internet ns3-lte ns3-mobility ns3-point-to-point ns3-applications ns3-flow-monitor ns3-netanim)
-          /tmp/lte-lab1 --nUe=1 --simTime=3
-          python BTH10_NB_IOT_LTE/analyze_flow.py lte-lab1.xml
+          python tools/run_lte_experiments.py --binary /tmp/lte-lab1
       - uses: actions/upload-artifact@v4
         with:
           name: lte-results
-          path: |
-            lte.xml
-            lte-lab1.xml
-            flow-summary.csv
+          path: artifacts/lte/
