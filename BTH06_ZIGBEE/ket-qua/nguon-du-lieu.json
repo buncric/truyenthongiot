@@ -1,0 +1,42 @@
+{
+  "tested_date": "2026-10-16",
+  "hardware": "TI CC2531 USB Dongle",
+  "driver": "Microsoft WinUSB 10.0.26100.9549",
+  "device_problem_code_after_install": 0,
+  "sniffer_control_commands": "power/channel/start/stop returned success",
+  "local_scan": "channels 11-26; 4s process window per channel, including 1s initialization; zero packets",
+  "tshark_check": "cc2531 interface; channel 11; 5s; zero packets",
+  "sample": {
+    "source_page": "https://wiki.wireshark.org/SampleCaptures",
+    "url": "https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/zigbee-join-authenticate.pcap.gz",
+    "sha256": "c6691c477d88c75ebfbe3ef7236dc766b01e6acaccaeea3fc03600f927aecc81",
+    "frames": 54,
+    "wpan_frames": 54,
+    "nwk_frames": 28,
+    "aps_frames": 2,
+    "association_request_frame": 15,
+    "association_response_frame": 19,
+    "aps_security_frames": [
+      21,
+      35
+    ],
+    "collected_with_users_dongle": false
+  },
+  "screenshots": [
+    {
+      "file": "mau-aps-security.png",
+      "sha256": "88aac542748f6a8bdaddedeca714b191e9db0fb400375132477aca0143aa2259",
+      "source": "unmodified Wireshark window screenshot; sample file for mau-*.png, local interface list otherwise"
+    },
+    {
+      "file": "mau-association-response.png",
+      "sha256": "d83bc5aa1e15947339f71d3f6c5a9495ee46d511a1b7d7f79cc83a28bee34076",
+      "source": "unmodified Wireshark window screenshot; sample file for mau-*.png, local interface list otherwise"
+    },
+    {
+      "file": "wireshark-cc2531-interface.png",
+      "sha256": "1ced6d347d5d5ccb3a3a8373ca1463aae25fa419c30cdd100c652ad65e677dfa",
+      "source": "unmodified Wireshark window screenshot; sample file for mau-*.png, local interface list otherwise"
+    }
+  ]
+}

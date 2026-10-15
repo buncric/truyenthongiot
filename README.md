@@ -1,20 +1,22 @@
-# Truyền thông trong IoT - Các project thực hành
+# Bài tập thực hành Truyền thông trong IoT
 
-Bộ mã nguồn và hướng dẫn tiếng Việt theo toàn bộ tài liệu được cung cấp: **13 PDF / 174 trang**, chia thành **11 thư mục bài thực hành, 31 mục hướng dẫn**. Mỗi mục có chuẩn bị, nối dây/cấu hình, các bước kèm hình, tiêu chí kiểm tra, giải thích và trả lời câu hỏi.
+Đây là nơi em lưu chương trình, hình ảnh và ghi chép khi làm các bài thực hành của môn Truyền thông trong IoT. Các bài được chia theo đề, từ UART, SPI/I²C đến MQTT, CoAP và bảo mật. Trong từng bài có sơ đồ nối dây, cách chạy và phần nhận xét sau khi kiểm tra.
 
-**Bắt đầu:** [chạy nhanh và chuẩn bị môi trường](docs/BAT_DAU.md) · [đối chiếu yêu cầu](docs/DOI_CHIEU.md) · [kết quả kiểm thử và giới hạn](docs/KIEM_THU.md) · [toàn bộ tài liệu và hình gốc](tai-lieu-goc/README.md).
+[Chuẩn bị môi trường](docs/BAT_DAU.md) · [Đối chiếu với đề](docs/DOI_CHIEU.md) · [Ghi chép kiểm tra chương trình](docs/KIEM_THU.md) · [Tài liệu môn học](tai-lieu-goc/README.md).
 
-## Hình ảnh và mô hình thực hành
+## Những phần đã làm
 
-**[Ảnh Wireshark thực tế và file bắt gói](docs/wireshark-thuc-te/README.md):** 18 ảnh, 11 file PCAPNG cho 9 bài MQTT, CoAP và bảo mật. Có phân tích theo số frame, Polling/Observe 60 giây, ghép Block2 2048 byte, TLS và thử replay/kết nối lại. Traffic chạy thật giữa các chương trình trên PC; dữ liệu cảm biến là mô phỏng.
+Ở phần [MQTT, CoAP và bảo mật](docs/wireshark-thuc-te/README.md), em chạy các chương trình trên PC rồi mở bản ghi bằng Wireshark để phân tích. Có 18 ảnh và 11 file PCAPNG, trong đó thấy được Retain/Last Will, CoAP gửi lại, Polling/Observe, Block2, TLS và phản hồi khi phát lại lệnh. Các số liệu cảm biến trong phần này là dữ liệu mô phỏng.
 
-[Bài 8.1 theo ảnh ESP32-S3 thực tế](BTH08_WIFI/8.1.md) có 7 ảnh thao tác và 2 ảnh mạch bạn cung cấp. [30 cảnh Blender 3D](mo-phong-3d/README.md) minh họa các bài còn lại, kèm file `.blend` chỉnh sửa được và hình theo từng bước. [Ảnh linh kiện trên mạng](docs/linh-kien/README.md) ghi nguồn, tác giả và giấy phép; [84 hình giao diện/mạch trích PDF](docs/giao-dien-goc/README.md) giúp đối chiếu các nút và màn hình phần mềm.
+[Bài 8.1](BTH08_WIFI/8.1.md) ghi lại cách tạo thiết bị ESPHome và nạp cho ESP32-S3 bằng USB, kèm bảy ảnh thao tác và hai ảnh board. Phần [LTE](BTH10_NB_IOT_LTE/ket-qua/README.md) có bảng kết quả sáu cấu hình NS-3 đã chạy trên GitHub Actions.
 
-Mô hình 3D hướng dẫn bố trí và luồng tín hiệu; kết quả chạy thật được ghi riêng trong [kiểm thử](docs/KIEM_THU.md). Với board ESP32-S3 hiện có, bài 8.3 bổ sung cấu hình DHT11 và bài 8.4 hướng dẫn chọn entity RGB thực tế.
+Với Zigbee, em hiện chỉ có USB CC2531. Dongle đã nhận trong Wireshark nhưng lần quét ngắn chưa thu gói, nên em dùng [bản ghi mẫu để đọc MAC/NWK và quá trình join](BTH06_ZIGBEE/ket-qua/README.md).
 
-## Danh mục project
+Những phần chưa đủ linh kiện có [hình Blender 3D](mo-phong-3d/README.md) để xem cách bố trí và luồng tín hiệu. Đây là hình minh họa; kết quả chạy chương trình được ghi riêng trong từng bài. [Ảnh linh kiện tham khảo](docs/linh-kien/README.md) và [hình trích từ đề](docs/giao-dien-goc/README.md) có đường dẫn nguồn đi kèm.
 
-| Bài thực hành | Project | Các mục |
+## Các bài thực hành
+
+| Bài thực hành | Nội dung | Các mục |
 |---|---|---|
 | 2 | [Bài thực hành 2 - UART](BTH02_UART/README.md) | 2.1, 2.2, 2.3 |
 | 3 | [Bài thực hành 3 - SPI và I²C](BTH03_SPI_I2C/README.md) | 3.1, 3.2, 3.3 |
@@ -28,23 +30,23 @@ Mô hình 3D hướng dẫn bố trí và luồng tín hiệu; kết quả chạ
 | 13 | [Bài thực hành 13 - CoAP](BTH13_COAP/README.md) | 13.1, 13.2, 13.3 |
 | 14 | [Bài thực hành 14 - Bảo mật](BTH14_BAO_MAT/README.md) | 14.1, 14.2, 14.3 |
 
-Tài liệu nguồn **không có bài 7 và bài 11**; repository không tự đặt nội dung cho hai bài này. Hai PDF cài Debian và Home Assistant/MQTT Broker được tích hợp vào phần chuẩn bị của bài 6.
+Đề được giao không có bài 7 và bài 11. Hai tài liệu cài Debian và Home Assistant/MQTT Broker được đặt trong phần chuẩn bị của bài 6.
 
-## Dùng các project
+## Mở và chạy chương trình
 
 - **Arduino/ESP:** mở `.ino` trong thư mục cùng tên, cài đúng core/thư viện và biên dịch cho board ghi trong hướng dẫn. Nếu có `config.example.h`, sao thành `config.local.h` và nhập thông tin mạng của bạn. Với AVR, thư mục `firmware/` chứa HEX biên dịch từ mã mới để dùng Proteus.
-- **Proteus và Packet Tracer:** các file người dùng cung cấp được giữ tại `project-goc/` của bài 2, 3, 4. Retarget Program File/HEX theo máy của bạn. Các bài mới yêu cầu thao tác trên simulator có hướng dẫn cấu hình cụ thể; không có file `.pkt` hay ảnh kết quả được tạo giả.
+- **Proteus và Packet Tracer:** file project ban đầu nằm trong `project-goc/` của bài 2, 3, 4. Khi mở trên máy khác, cần chọn lại đường dẫn HEX trong Program File. Các mục chưa chạy lại trên phần mềm được ghi trong phần kết quả của bài.
 - **Phần mềm PC:** từ gốc repo chạy `npm ci`, sau đó `npm run demo --workspace iot-bluetooth-web` hoặc `npm start --workspace iot-coap-labs`.
 - **Linux/NS-3:** bài 9 có script cài cố định ns-3.43; bài 10 có mã LTE/EPC, traffic generator, NetAnim và trình phân tích FlowMonitor.
 - **ESPHome/HA:** dùng YAML ở bài 8, sao secrets.example.yaml thành secrets.yaml và điền thông tin cục bộ. Biến thể [ESP32-S3 đã có](BTH_WIFI_ESPHOME/README.md) được giữ lại.
 
-## Trạng thái và nguồn hình
+## Ghi chú khi xem bài
 
-Mã nguồn và hướng dẫn đã được soạn; phần đã chạy kiểm thử được ghi riêng trong [KIEM_THU.md](docs/KIEM_THU.md). Compile thành công không đồng nghĩa đã nạp board và đo thực. Mỗi hình `*-buoc-*.png` là minh họa thao tác do repo biên soạn. Hình trang PDF là tài liệu gốc. Dữ liệu DEMO/simulated được ghi nhãn, không dùng làm số đo cảm biến thật.
+Mỗi bài ghi rõ phần đã chạy và phần còn cần thử trên mạch. Em giữ log biên dịch, file bắt gói và số liệu ở các thư mục kết quả để tiện đối chiếu. Bảng tổng hợp phiên bản công cụ và các lần kiểm tra nằm trong [KIEM_THU.md](docs/KIEM_THU.md).
 
-## Nội dung có từ trước
+## Các file cũ
 
-Các file UART cũ ở gốc, thư mục 1.2, BareMinimum và hình chụp cũ vẫn được giữ. Thư mục `BTH3_SPI_I2C` cũ thực chất chứa UART đã chuyển nguyên trạng sang [luu-tru/uart-truoc-khi-phan-loai](luu-tru/uart-truoc-khi-phan-loai). Code mới đúng SPI/I²C ở BTH03_SPI_I2C. Các file nguồn trên ổ D ngoài checkout không bị sửa.
+Các file UART cũ ở gốc, thư mục 1.2, BareMinimum và ảnh trước đây vẫn được giữ. Phần UART từng đặt trong thư mục `BTH3_SPI_I2C` được chuyển sang [thư mục lưu trữ](luu-tru/uart-truoc-khi-phan-loai); các bài SPI/I²C hiện nằm ở BTH03_SPI_I2C.
 
 ## Chạy kiểm tra
 
@@ -57,4 +59,4 @@ python tools/validate_repo.py
 python tools/compile_arduino.py --cli arduino-cli --jobs 2
 ```
 
-[Danh mục máy đọc được](docs/catalog.json) liệt kê từng mục và số bước. Không commit mật khẩu, CA private key, network key Zigbee hoặc capture chứa thông tin thật.
+[Danh sách các mục](docs/catalog.json) lưu số bài và đường dẫn để tiện kiểm tra. Thông tin Wi-Fi, khóa riêng và khóa mạng được để trong file cấu hình cục bộ.

@@ -1,0 +1,98 @@
+[
+  {
+    "channel": 11,
+    "frames": 0,
+    "pcap_bytes": 24,
+    "exit": 1
+  },
+  {
+    "channel": 12,
+    "frames": 0,
+    "pcap_bytes": 24,
+    "exit": 1
+  },
+  {
+    "channel": 13,
+    "frames": 0,
+    "pcap_bytes": 24,
+    "exit": 1
+  },
+  {
+    "channel": 14,
+    "frames": 0,
+    "pcap_bytes": 24,
+    "exit": 1
+  },
+  {
+    "channel": 15,
+    "frames": 0,
+    "pcap_bytes": 24,
+    "exit": 1
+  },
+  {
+    "channel": 16,
+    "frames": 0,
+    "pcap_bytes": 24,
+    "exit": 1
+  },
+  {
+    "channel": 17,
+    "frames": 0,
+    "pcap_bytes": 24,
+    "exit": 1
+  },
+  {
+    "channel": 18,
+    "frames": 0,
+    "pcap_bytes": 24,
+    "exit": 1
+  },
+  {
+    "channel": 19,
+    "frames": 0,
+    "pcap_bytes": 24,
+    "exit": 1
+  },
+  {
+    "channel": 20,
+    "frames": 0,
+    "pcap_bytes": 24,
+    "exit": 1
+  },
+  {
+    "channel": 21,
+    "frames": 0,
+    "pcap_bytes": 24,
+    "exit": 1
+  },
+  {
+    "channel": 22,
+    "frames": 0,
+    "pcap_bytes": 24,
+    "exit": 1
+  },
+  {
+    "channel": 23,
+    "frames": 0,
+    "pcap_bytes": 24,
+    "exit": 1
+  },
+  {
+    "channel": 24,
+    "frames": 0,
+    "pcap_bytes": 24,
+    "exit": 1
+  },
+  {
+    "channel": 25,
+    "frames": 0,
+    "pcap_bytes": 24,
+    "exit": 1
+  },
+  {
+    "channel": 26,
+    "frames": 0,
+    "pcap_bytes": 24,
+    "exit": 1
+  }
+]

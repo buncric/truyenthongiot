@@ -29,7 +29,7 @@ Tác giả: oomlout. [Trang nguồn](https://commons.wikimedia.org/wiki/File:Ada
 | MAX7219 | [Hình module trong Wokwi](https://wokwi.com/projects/420608324577339393), [datasheet của Analog Devices](https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7219-MAX7221.pdf). Mạch Wokwi tham khảo hình dáng, không phải mạch nộp của bài 3.3 | 3.3 |
 | PIR | [Hình cảm biến và cấu tạo từ Adafruit](https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/overview) | 4.2, 4.3 |
 | CC2531 USB | [Ảnh dongle CC2531](https://shop.dialedin.com.au/products/sonoff-cc2531) — tham khảo hình dáng; firmware sniffer và coordinator khác nhau | 6.1–6.3 |
-| ESP32-S3 DevKitC-1 | [Hình và chân từ Espressif](https://docs.espressif.com/projects/esp-idf/en/v4.4.8/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html), kèm ảnh board thật của người dùng tại bài 8.1 | 8.1 |
+| ESP32-S3 DevKitC-1 | [Hình và chân từ Espressif](https://docs.espressif.com/projects/esp-idf/en/v4.4.8/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html), kèm ảnh board thật trong bài tại bài 8.1 | 8.1 |
 | Wemos D1 mini | [Ảnh chân trong PDF gốc](../giao-dien-goc/BTH8_WiFi-p04-i0.png) | 8.3, 8.4 |
 
 Những nguồn bổ sung được dẫn trực tiếp tới trang ảnh; không gán giấy phép Commons cho ảnh của hãng hoặc cửa hàng. Các router, PC, server, điện thoại, trạm LTE, còi và camera trong Blender là hình học biểu tượng do dự án dựng, không đại diện một sản phẩm thương mại cụ thể.

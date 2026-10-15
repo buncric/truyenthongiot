@@ -1,11 +1,9 @@
 # Bài thực hành 6 - Zigbee
 
-Bắt đầu ở [cài Debian / HA / Mosquitto / Zigbee2MQTT](CAI_DAT.md). Đã bao phủ cả hai PDF cài đặt bổ trợ. Các frame và địa chỉ thực cần phần cứng Zigbee/sniffer; repository cung cấp quy trình, cấu hình và đáp án khái niệm.
+Em hiện có một USB CC2531. Dongle đã được cài WinUSB và nhận trong Wireshark, nhưng lần quét ngắn chưa thu được gói. [Kết quả cài đặt và bài đọc bản ghi mẫu](ket-qua/README.md) ghi lại phần đã làm được với bộ linh kiện hiện tại. Phần [cài Debian, Home Assistant và Zigbee2MQTT](CAI_DAT.md) được đặt riêng để tiện tra lại.
 
 ## Các bài thực hành
 
 - [6.1. Bắt và phân tích MAC/NWK Zigbee](6.1.md)
 - [6.2. ZCL/APS: On, Off và Attribute Report](6.2.md)
 - [6.3. Quá trình join và phân phối khóa](6.3.md)
-
-Mỗi bài gồm linh kiện, bảng nối dây/cấu hình, thao tác từng bước có hình, kết quả cần kiểm tra và giải thích. Xem [trạng thái kiểm thử](../docs/KIEM_THU.md) trước khi dùng các kết quả.

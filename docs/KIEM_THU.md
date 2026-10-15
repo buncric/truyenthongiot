@@ -1,6 +1,6 @@
-# Kiểm thử và giới hạn thực nghiệm
+# Ghi chép kiểm tra chương trình
 
-Cập nhật ngày 16/10/2026. Không coi compile/test trên PC là bằng chứng board thật đã chạy.
+Cập nhật ngày 16/10/2026. Trang này lưu phiên bản công cụ, các lần biên dịch và kết quả chạy để tiện đối chiếu với từng bài. Phần chạy trên PC và phần thử trên board được ghi riêng.
 
 ## Đã thực hiện trên máy hiện tại
 
@@ -11,7 +11,7 @@ Cập nhật ngày 16/10/2026. Không coi compile/test trên PC là bằng chứ
 | Node.js syntax (`npm run check`) | PASS |
 | Web Bluetooth backend ở chế độ DEMO | PASS HTTP connect/disconnect, kiểm tra lệnh, lỗi trạng thái và luồng WebSocket |
 | CoAP server/client chạy UDP thật trên loopback | PASS CON/NON, 4.04, Observe ít nhất hai notification |
-| CoAP Block2 | PASS 2048 byte A; kiểm tra cả reassembly của thư viện và 16 request block128byte |
+| CoAP Block2 | PASS 2048 byte A; kiểm tra cả reassembly của thư viện và 16 request block 128 byte |
 | CoAP mất phản hồi | PASS proxy drop một reply; client CON gửi lại và nhận cached reply |
 | Python unittest (3 test) | PASS quy đổi đơn vị/FlowMonitor, file không có flow, các trường được ràng buộc trong HMAC |
 | ESPHome 2026.9.1 `config` | PASS YAML Wemos, ESP32-S3 RGB và ESP32-S3 RGB + DHT11 với secrets thử sinh riêng ngoài repo; chưa compile/flash ESPHome firmware |
@@ -22,27 +22,27 @@ Cập nhật ngày 16/10/2026. Không coi compile/test trên PC là bằng chứ
 
 Node integration test dùng socket thật; dữ liệu nhiệt độ của demo là mô phỏng. Fixture XML của unittest chỉ dùng kiểm tra công thức, không được xuất như kết quả LTE đo thật.
 
-## Chưa có bằng chứng thực nghiệm
+## Những phần còn cần thử
 
 - Chưa upload/nạp board qua COM, chưa đo LED/DHT/RTC/MAX7219 hoặc điện áp ngoài mạch.
-- Chưa mở/chạy GUI Proteus và Packet Tracer trong phiên này. File người dùng cung cấp được giữ nguyên; các bài4.2/4.3 có hướng dẫn và bảng conditions nhưng chưa có bản Save As .pkt hoàn tất được xác nhận.
-- Chưa cài Debian/HAOS vào VM, ghép dongle/thiết bị Zigbee, thu pcap Zigbee hoặc Wi-Fi thật.
-- NS-3 chưa chạy Linux cục bộ, nhưng đã build/run thành công trên GitHub Actions. Bảng số liệu mô phỏng thật và đường dẫn artifact nằm trong bài10; không thay cho đo mạng LTE/NB-IoT thực.
+- Chưa mở/chạy GUI Proteus và Packet Tracer trong phiên này. File của môn học được giữ nguyên; các bài 4.2/4.3 có hướng dẫn và bảng conditions nhưng chưa có bản Save As .pkt hoàn tất được xác nhận.
+- CC2531 đã được cài WinUSB và nhận trong Wireshark. Lần quét ngắn 11–26 chưa thu gói; hiện chỉ có dongle nên chưa ghép được mạng Zigbee tự dựng. Phần đọc MAC/join dùng bản ghi mẫu của Wireshark Wiki; [ghi chép và ảnh](../BTH06_ZIGBEE/ket-qua/README.md).
+- NS-3 chưa chạy Linux cục bộ, nhưng đã build/run thành công trên GitHub Actions. Bảng số liệu mô phỏng thật và đường dẫn artifact nằm trong bài 10; không thay cho đo mạng LTE/NB-IoT thực.
 - Đã đo TLS handshake và thử replay/kết nối lại trên PC với broker cục bộ và chứng chỉ tự sinh; chưa kiểm tra TLS/replay/NVS/watchdog trên board.
 
 ## Bắt gói và ảnh Wireshark ngày 16/10/2026
 
 [Bộ ảnh, PCAPNG, log và hướng dẫn mở từng frame](wireshark-thuc-te/README.md) được gắn trực tiếp vào 9 bài 12.1–12.3, 13.1–13.3 và 14.1–14.3. [analysis.json](wireshark-thuc-te/analysis.json) lưu kết quả phân tích 11 capture, tất cả PASS: MQTT topic/QoS, Retain/Last Will, CoAP retransmission cùng MID/token, Polling 60 gói so với Observe 24 gói trong cửa sổ ứng dụng 60 giây, Block2 ghép đủ 2048 byte, MQTT plaintext/TLS, từ chối lệnh replay và hai lần CONNECT cùng ClientID.
 
-TShark 4.6.9 bắt TCP/UDP thật trên Npcap Loopback; ảnh lấy nguyên cửa sổ Wireshark khi mở các capture này. Broker Aedes 0.51.3, MQTT.js 5.14.1, coap 1.4.1, Node 24.19.0. Thiết bị/cảm biến/dashboard là chương trình PC; chứng chỉ và khóa riêng thử nghiệm để ngoài repo. Chưa có capture từ ESP/Home Assistant hoặc USB sniffer Zigbee. Hai IP trong ảnh cũ chưa truy cập được tại thời điểm kiểm tra, chưa đủ kết luận thiết bị không có trên mạng.
+TShark 4.6.9 bắt TCP/UDP trên Npcap Loopback; ảnh chụp khi mở các capture này trong Wireshark. Broker Aedes 0.51.3, MQTT.js 5.14.1, coap 1.4.1, Node 24.19.0. Cảm biến, thiết bị và dashboard là chương trình PC; chứng chỉ và khóa riêng thử nghiệm để ngoài repo. Chưa có bản ghi trao đổi ESP/Home Assistant. Hai IP trong ảnh cũ chưa truy cập được tại thời điểm kiểm tra.
 
 `python tools/wireshark/analyze.py` phân tích lại bằng TShark. `python tools/validate_repo.py` kiểm tra SHA256 của ảnh và PCAPNG mà không cần cài Wireshark trên CI. Cách cài dependency, sinh chứng chỉ và bắt lại được ghi trong bộ hướng dẫn trên.
 
 ## Môi trường compile Arduino
 
-Arduino AVR core1.8.8, ESP8266 core3.1.2, ESP32 core3.3.12. RTClib2.1.4, Adafruit BusIO1.17.4, LiquidCrystal_I2C2.0.0, DHT sensor library1.4.7, Adafruit Unified Sensor1.1.15, PubSubClient2.8, ArduinoJson7.4.3.
+Arduino AVR core 1.8.8, ESP8266 core 3.1.2, ESP32 core 3.3.12. RTClib2.1.4, Adafruit BusIO1.17.4, LiquidCrystal_I2C2.0.0, DHT sensor library1.4.7, Adafruit Unified Sensor1.1.15, PubSubClient2.8, ArduinoJson7.4.3.
 
-ESP32 compile/link bình thường thành công. Bước export với `--output-dir` của core3.3.12 gọi Windows PowerShell bị lỗi thiếu assembly trên host; công cụ compile trong repo bỏ bước export cho ESP32 và ghi log của compile/link thành công. Không sửa core hoặc Windows để né lỗi. Binary AVR mới được lưu trong firmware/; binary ESP dùng cấu hình placeholder không được quảng bá như firmware đã cấu hình mạng thật.
+ESP32 compile/link bình thường thành công. Bước export với `--output-dir` của core 3.3.12 gọi Windows PowerShell bị lỗi thiếu assembly trên host; công cụ compile trong repo bỏ bước export cho ESP32 và ghi log của compile/link thành công. Không sửa core hoặc Windows để né lỗi. Binary AVR mới được lưu trong firmware/; binary ESP dùng cấu hình placeholder không được quảng bá như firmware đã cấu hình mạng thật.
 
 | Sketch | FQBN | Compile | Log |
 |---|---|---|---|
@@ -83,8 +83,8 @@ python tools/compile_arduino.py --cli arduino-cli --jobs 2
 
 ## Bổ sung hình thực tế và mô hình Blender
 
-- Bài 8.1: 7 ảnh thao tác người dùng cung cấp (2 ảnh đã che mật khẩu), 2 ảnh board thật giữ nguyên. Ảnh chứng minh trạng thái LED nhìn thấy; chưa có ảnh giao diện web tương ứng để xác nhận thao tác điều khiển từ xa.
-- 30 cảnh `.blend` thực sự dựng và render bằng Blender 4.5.14 LTS; 132 ảnh 1800×1200 gắn theo bước. Đã xem toàn bộ 30 cảnh ở bản tổng quan, kiểm tra thêm các cảnh chi tiết và mở lại file Blender để render. Các cảnh là mô hình hình học và diễn họa luồng tín hiệu, chưa mô phỏng mạch điện hay chạy firmware.
+- Bài 8.1 có 7 ảnh thao tác ESPHome (2 ảnh đã che mật khẩu) và 2 ảnh board. Ảnh cho thấy trạng thái LED; phần điều khiển web cần ảnh đối chiếu thêm.
+- 30 cảnh `.blend` được dựng bằng Blender 4.5.14 LTS, kèm 132 ảnh 1800×1200 theo từng bước. Các cảnh mô tả cách bố trí và luồng tín hiệu. Báo cáo mở lại file và kiểm tra mốc ảnh được lưu trong blender-results.json.
 - 84 hình UI/mạch trích đúng vùng hình trong PDF gốc, có manifest ghi PDF, trang và tọa độ. 3 ảnh linh kiện Commons giữ nguyên, có tác giả và giấy phép; nguồn ảnh bổ sung dẫn trực tiếp tới trang chủ sở hữu.
 - Nguồn Python dựng cảnh, file Blender, JPEG và manifest đều nằm trong [thư mục mô phỏng](../mo-phong-3d/README.md). Không coi góc camera hoặc hạt tín hiệu trên timeline là dữ liệu đo.
 

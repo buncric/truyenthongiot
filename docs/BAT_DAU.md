@@ -47,6 +47,6 @@ Khi dùng ESP, server phải nghe LAN. PowerShell: `$env:HOST='0.0.0.0'`, rồi 
 
 Đi theo BTH06_ZIGBEE/CAI_DAT.md trước; cài mới dùng HAOS VM. Không chạy script Supervised cũ lên host Windows. File secrets/config.local.h dùng giá trị riêng; bản example có placeholder để compile/đọc cấu trúc, chưa có khả năng kết nối mạng của bạn.
 
-## Lưu bằng chứng
+## Lưu kết quả từng lần làm
 
 Sau khi chạy, tạo `ket-qua/` trong bài: ảnh mạch, trạng thái thiết bị, log Serial, file pcapng, project Save As hoặc XML. Bỏ/che credential và key trước khi commit. Đặt tên theo bài và bước, ghi board, phiên bản phần mềm, ngày thử và điều kiện thử. Sơ đồ hướng dẫn không thay cho ảnh đo thực.

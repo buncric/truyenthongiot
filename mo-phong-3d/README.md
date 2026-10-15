@@ -1,6 +1,6 @@
 # Mô hình Blender 3D cho các bài thực hành
 
-**30 cảnh `.blend`, 132 hình theo bước**. Bài 8.1 dùng ảnh thao tác và ảnh mạch thật bạn cung cấp; các bài còn lại có mô hình để học khi chưa có đầy đủ linh kiện. [Nguồn ảnh linh kiện tham khảo](../docs/linh-kien/README.md) · [84 hình giao diện từ PDF](../docs/giao-dien-goc/README.md).
+**30 cảnh `.blend`, 132 hình theo bước**. Bài 8.1 dùng ảnh thao tác và ảnh mạch thật trong bài thực hành; các bài còn lại có mô hình để học khi chưa có đầy đủ linh kiện. [Nguồn ảnh linh kiện tham khảo](../docs/linh-kien/README.md) · [84 hình giao diện từ PDF](../docs/giao-dien-goc/README.md).
 
 ## Mở và sử dụng
 

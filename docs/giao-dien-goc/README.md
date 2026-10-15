@@ -1,6 +1,6 @@
 # Ảnh giao diện và mạch từ tài liệu gốc
 
-84 hình được trích nguyên vùng hình từ PDF người dùng cung cấp. Các khoanh đỏ/mũi tên có sẵn thuộc tài liệu; đây không phải ảnh chụp chạy mới trên máy hiện tại. Phiên bản phần mềm và giá trị mẫu có thể khác máy của bạn.
+84 hình được trích nguyên vùng hình từ PDF của môn học. Các khoanh đỏ/mũi tên có sẵn thuộc tài liệu; đây không phải ảnh chụp chạy mới trên máy hiện tại. Phiên bản phần mềm và giá trị mẫu có thể khác máy của bạn.
 
 Mở hướng dẫn từng bài để áp dụng bảng chân, cấu hình và các hiệu chỉnh; không sao chép mật khẩu/địa chỉ mẫu trong ảnh.
 
