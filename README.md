@@ -4,6 +4,12 @@ Bộ mã nguồn và hướng dẫn tiếng Việt theo toàn bộ tài liệu �
 
 **Bắt đầu:** [chạy nhanh và chuẩn bị môi trường](docs/BAT_DAU.md) · [đối chiếu yêu cầu](docs/DOI_CHIEU.md) · [kết quả kiểm thử và giới hạn](docs/KIEM_THU.md) · [toàn bộ tài liệu và hình gốc](tai-lieu-goc/README.md).
 
+## Hình ảnh và mô hình thực hành
+
+[Bài 8.1 theo ảnh ESP32-S3 thực tế](BTH08_WIFI/8.1.md) có 7 ảnh thao tác và 2 ảnh mạch bạn cung cấp. [30 cảnh Blender 3D](mo-phong-3d/README.md) minh họa các bài còn lại, kèm file `.blend` chỉnh sửa được và hình theo từng bước. [Ảnh linh kiện trên mạng](docs/linh-kien/README.md) ghi nguồn, tác giả và giấy phép; [84 hình giao diện/mạch trích PDF](docs/giao-dien-goc/README.md) giúp đối chiếu các nút và màn hình phần mềm.
+
+Mô hình 3D hướng dẫn bố trí và luồng tín hiệu; kết quả chạy thật được ghi riêng trong [kiểm thử](docs/KIEM_THU.md). Với board ESP32-S3 hiện có, bài 8.3 bổ sung cấu hình DHT11 và bài 8.4 hướng dẫn chọn entity RGB thực tế.
+
 ## Danh mục project
 
 | Bài thực hành | Project | Các mục |

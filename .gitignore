@@ -19,3 +19,5 @@ __pycache__/
 **/coordinator_backup.json
 **/data/
 artifacts/
+mo-phong-3d/**/*.blend1
+mo-phong-3d/**/*.blend2

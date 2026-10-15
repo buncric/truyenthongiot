@@ -115,8 +115,8 @@
     "id": "8.1",
     "project": "BTH08_WIFI",
     "guide": "BTH08_WIFI/8.1.md",
-    "title": "Bài 8.1. Kết nối Wemos D1 mini bằng ESPHome",
-    "steps": 5
+    "title": "Bài 8.1. ESP32-S3 DevKitC-1: tạo thiết bị, nạp USB, kết nối Wi-Fi và điều khiển LED RGB",
+    "steps": 7
   },
   {
     "id": "8.2",

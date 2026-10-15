@@ -1,6 +1,6 @@
 # Kiểm thử và giới hạn thực nghiệm
 
-Ghi nhận ngày 15/10/2026. Không coi compile/test trên PC là bằng chứng board thật đã chạy.
+Cập nhật ngày 16/10/2026. Không coi compile/test trên PC là bằng chứng board thật đã chạy.
 
 ## Đã thực hiện trên máy hiện tại
 
@@ -14,10 +14,10 @@ Ghi nhận ngày 15/10/2026. Không coi compile/test trên PC là bằng chứng
 | CoAP Block2 | PASS 2048 byte A; kiểm tra cả reassembly của thư viện và 16 request block128byte |
 | CoAP mất phản hồi | PASS proxy drop một reply; client CON gửi lại và nhận cached reply |
 | Python unittest (3 test) | PASS quy đổi đơn vị/FlowMonitor, file không có flow, các trường được ràng buộc trong HMAC |
-| ESPHome 2026.9.1 `config` | PASS YAML Wemos với secrets thử sinh riêng ở thư mục tạm; chưa compile/flash ESPHome firmware |
+| ESPHome 2026.9.1 `config` | PASS YAML Wemos, ESP32-S3 RGB và ESP32-S3 RGB + DHT11 với secrets thử sinh riêng ngoài repo; chưa compile/flash ESPHome firmware |
 | SerialPort native binding Windows | PASS load và liệt kê được cổng; chưa mở cổng thiết bị để tránh chiếm phiên đang dùng |
 | npm audit sau cập nhật ws8.22.0 | 0 vulnerability được báo ở thời điểm kiểm tra |
-| Tài liệu | 31 mục, 137 hình theo bước; kiểm tra liên kết cục bộ và SHA256 của13PDF nguồn |
+| Tài liệu | 31 mục chính, 139 hình theo bước (132 render Blender + 7 ảnh thao tác 8.1), 2 ảnh mạch thật 8.1; kiểm tra liên kết và SHA256 của 13 PDF nguồn |
 
 Node integration test dùng socket thật; dữ liệu nhiệt độ của demo là mô phỏng. Fixture XML của unittest chỉ dùng kiểm tra công thức, không được xuất như kết quả LTE đo thật.
 
@@ -71,3 +71,12 @@ python tools/compile_arduino.py --cli arduino-cli --jobs 2
 ```
 
 `arduino-results.json` lưu hash source .ino và board; các log build nằm trong build-logs/. Khi đổi .ino/header/config hoặc core, phải compile lại. Các file cấu hình cần credential thật sử dụng example để kiểm tra compile, không mặc định kết nối thành công.
+
+## Bổ sung hình thực tế và mô hình Blender
+
+- Bài 8.1: 7 ảnh thao tác người dùng cung cấp (2 ảnh đã che mật khẩu), 2 ảnh board thật giữ nguyên. Ảnh chứng minh trạng thái LED nhìn thấy; chưa có ảnh giao diện web tương ứng để xác nhận thao tác điều khiển từ xa.
+- 30 cảnh `.blend` thực sự dựng và render bằng Blender 4.5.14 LTS; 132 ảnh 1800×1200 gắn theo bước. Đã xem toàn bộ 30 cảnh ở bản tổng quan, kiểm tra thêm các cảnh chi tiết và mở lại file Blender để render. Các cảnh là mô hình hình học và diễn họa luồng tín hiệu, chưa mô phỏng mạch điện hay chạy firmware.
+- 84 hình UI/mạch trích đúng vùng hình trong PDF gốc, có manifest ghi PDF, trang và tọa độ. 3 ảnh linh kiện Commons giữ nguyên, có tác giả và giấy phép; nguồn ảnh bổ sung dẫn trực tiếp tới trang chủ sở hữu.
+- Nguồn Python dựng cảnh, file Blender, JPEG và manifest đều nằm trong [thư mục mô phỏng](../mo-phong-3d/README.md). Không coi góc camera hoặc hạt tín hiệu trên timeline là dữ liệu đo.
+
+[Báo cáo mở lại 30 file Blender và kiểm tra đủ 132 mốc bước](blender-results.json). Có thể tái lập bằng `blender -b --python-exit-code 1 --python tools/check_blender.py` từ thư mục gốc repo; chương trình render lại ba cảnh đại diện vào thư mục tạm, không ghi đè kết quả thực nghiệm.

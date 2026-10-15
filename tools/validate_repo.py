@@ -14,6 +14,19 @@ for lab in LABS:
             if not count or count!=figures:errors.append(f'{md}: {count} steps, {figures} figures')
             steps+=count
 documents.extend([ROOT/'README.md',*list((ROOT/'docs').glob('*.md')),*list((ROOT/'tai-lieu-goc').glob('*.md'))])
+documents.extend([ROOT/'mo-phong-3d/README.md',*list((ROOT/'docs/giao-dien-goc').glob('*.md')),*list((ROOT/'docs/linh-kien').glob('*.md'))])
+scene_manifest=ROOT/'mo-phong-3d/manifest.json'
+if scene_manifest.exists():
+    scenes=json.loads(scene_manifest.read_text(encoding='utf-8'))
+    catalog=json.loads((ROOT/'docs/catalog.json').read_text(encoding='utf-8'))
+    expected={r['id']:r for r in catalog if r['id']!='8.1'}
+    if {r['id'] for r in scenes}!=set(expected):errors.append('Blender scenes do not cover the exercise catalog')
+    for row in scenes:
+        blend=ROOT/'mo-phong-3d'/row['blend']
+        if not blend.exists():errors.append(f'Missing Blender file: {blend}')
+        if row['renders']!=expected[row['id']]['steps']:errors.append(f"Blender step count: {row['id']}")
+        for i in range(row['renders']):
+            if not (blend.parent/f'buoc-{i+1:02}.jpg').exists():errors.append(f"Missing Blender render {row['id']} step {i+1}")
 for md in documents:
     for target in re.findall(r'\]\(([^\n)]+)\)',md.read_text(encoding='utf-8')):
         if target.startswith(('http://','https://','mailto:','#')):continue

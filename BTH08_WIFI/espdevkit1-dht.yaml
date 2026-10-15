@@ -1,0 +1,14 @@
+# Bài 8.3: ESP32-S3 thực tế, dùng lại cấu hình của bài 8.1.
+# DHT11: VCC 3.3V, GND, DATA GPIO4; pull-up DATA lên 3.3V.
+packages:
+  base: !include espdevkit1.yaml
+
+sensor:
+  - platform: dht
+    pin: GPIO4
+    model: DHT11
+    temperature:
+      name: Temperature
+    humidity:
+      name: Humidity
+    update_interval: 10s

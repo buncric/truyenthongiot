@@ -1,0 +1,1262 @@
+[
+  {
+    "id": "BTH12_MQTT-p08-i0",
+    "pdf": "BTH12_MQTT.pdf",
+    "page": 8,
+    "image": 0,
+    "bbox": [
+      72.0,
+      70.55000305175781,
+      575.9200439453125,
+      299.1000061035156
+    ],
+    "path": "BTH12_MQTT-p08-i0.png",
+    "width": 1543,
+    "height": 701
+  },
+  {
+    "id": "BTH12_MQTT-p08-i1",
+    "pdf": "BTH12_MQTT.pdf",
+    "page": 8,
+    "image": 1,
+    "bbox": [
+      72.0,
+      375.41998291015625,
+      576.0,
+      606.219970703125
+    ],
+    "path": "BTH12_MQTT-p08-i1.png",
+    "width": 1539,
+    "height": 705
+  },
+  {
+    "id": "BTH12_MQTT-p09-i0",
+    "pdf": "BTH12_MQTT.pdf",
+    "page": 9,
+    "image": 0,
+    "bbox": [
+      72.0,
+      70.55000305175781,
+      575.9400024414062,
+      300.75
+    ],
+    "path": "BTH12_MQTT-p09-i0.png",
+    "width": 1541,
+    "height": 705
+  },
+  {
+    "id": "BTH12_MQTT-p10-i0",
+    "pdf": "BTH12_MQTT.pdf",
+    "page": 10,
+    "image": 0,
+    "bbox": [
+      72.0,
+      70.54998779296875,
+      575.9100341796875,
+      300.29998779296875
+    ],
+    "path": "BTH12_MQTT-p10-i0.png",
+    "width": 1540,
+    "height": 703
+  },
+  {
+    "id": "BTH12_MQTT-p10-i1",
+    "pdf": "BTH12_MQTT.pdf",
+    "page": 10,
+    "image": 1,
+    "bbox": [
+      72.0,
+      348.20001220703125,
+      575.8900146484375,
+      579.2000122070312
+    ],
+    "path": "BTH12_MQTT-p10-i1.png",
+    "width": 1543,
+    "height": 708
+  },
+  {
+    "id": "BTH12_MQTT-p11-i0",
+    "pdf": "BTH12_MQTT.pdf",
+    "page": 11,
+    "image": 0,
+    "bbox": [
+      72.0,
+      70.55001831054688,
+      575.9200439453125,
+      219.6500244140625
+    ],
+    "path": "BTH12_MQTT-p11-i0.png",
+    "width": 1917,
+    "height": 568
+  },
+  {
+    "id": "BTH12_MQTT-p11-i1",
+    "pdf": "BTH12_MQTT.pdf",
+    "page": 11,
+    "image": 1,
+    "bbox": [
+      72.0,
+      267.54998779296875,
+      583.1199951171875,
+      422.54998779296875
+    ],
+    "path": "BTH12_MQTT-p11-i1.png",
+    "width": 1920,
+    "height": 583
+  },
+  {
+    "id": "BTH14_Bao-mat-p08-i0",
+    "pdf": "BTH14_Bao-mat.pdf",
+    "page": 8,
+    "image": 0,
+    "bbox": [
+      72.0,
+      235.0900115966797,
+      576.0,
+      427.2900085449219
+    ],
+    "path": "BTH14_Bao-mat-p08-i0.png",
+    "width": 1918,
+    "height": 732
+  },
+  {
+    "id": "BTH2_UART-p03-i0",
+    "pdf": "BTH2_UART.pdf",
+    "page": 3,
+    "image": 0,
+    "bbox": [
+      121.55999755859375,
+      419.760009765625,
+      543.9599609375,
+      699.9600219726562
+    ],
+    "path": "BTH2_UART-p03-i0.png",
+    "width": 990,
+    "height": 657
+  },
+  {
+    "id": "BTH2_UART-p04-i0",
+    "pdf": "BTH2_UART.pdf",
+    "page": 4,
+    "image": 0,
+    "bbox": [
+      201.72000122070312,
+      124.44001770019531,
+      500.1600036621094,
+      371.6400146484375
+    ],
+    "path": "BTH2_UART-p04-i0.png",
+    "width": 913,
+    "height": 756
+  },
+  {
+    "id": "BTH2_UART-p05-i0",
+    "pdf": "BTH2_UART.pdf",
+    "page": 5,
+    "image": 0,
+    "bbox": [
+      73.55999755859375,
+      102.719970703125,
+      595.5599975585938,
+      714.5999755859375
+    ],
+    "path": "BTH2_UART-p05-i0.png",
+    "width": 1045,
+    "height": 1225
+  },
+  {
+    "id": "BTH2_UART-p06-i0",
+    "pdf": "BTH2_UART.pdf",
+    "page": 6,
+    "image": 0,
+    "bbox": [
+      73.55999755859375,
+      117.719970703125,
+      595.5599975585938,
+      729.5999755859375
+    ],
+    "path": "BTH2_UART-p06-i0.png",
+    "width": 1045,
+    "height": 1225
+  },
+  {
+    "id": "BTH3_SPI_I2C-p05-i0",
+    "pdf": "BTH3_SPI_I2C.pdf",
+    "page": 5,
+    "image": 0,
+    "bbox": [
+      90.0,
+      70.55999755859375,
+      526.9200439453125,
+      378.0
+    ],
+    "path": "BTH3_SPI_I2C-p05-i0.png",
+    "width": 1335,
+    "height": 940
+  },
+  {
+    "id": "BTH3_SPI_I2C-p08-i0",
+    "pdf": "BTH3_SPI_I2C.pdf",
+    "page": 8,
+    "image": 0,
+    "bbox": [
+      108.0,
+      223.05001831054688,
+      572.9000244140625,
+      563.9000244140625
+    ],
+    "path": "BTH3_SPI_I2C-p08-i0.png",
+    "width": 930,
+    "height": 682
+  },
+  {
+    "id": "BTH4_ETHERNET-TCPIP-p04-i0",
+    "pdf": "BTH4_ETHERNET-TCPIP.pdf",
+    "page": 4,
+    "image": 0,
+    "bbox": [
+      72.0,
+      98.95001220703125,
+      575.3499755859375,
+      477.8500061035156
+    ],
+    "path": "BTH4_ETHERNET-TCPIP-p04-i0.png",
+    "width": 1007,
+    "height": 759
+  },
+  {
+    "id": "BTH4_ETHERNET-TCPIP-p05-i0",
+    "pdf": "BTH4_ETHERNET-TCPIP.pdf",
+    "page": 5,
+    "image": 0,
+    "bbox": [
+      72.0,
+      235.04998779296875,
+      555.0999755859375,
+      514.8499755859375
+    ],
+    "path": "BTH4_ETHERNET-TCPIP-p05-i0.png",
+    "width": 1047,
+    "height": 607
+  },
+  {
+    "id": "BTH4_ETHERNET-TCPIP-p06-i0",
+    "pdf": "BTH4_ETHERNET-TCPIP.pdf",
+    "page": 6,
+    "image": 0,
+    "bbox": [
+      72.0,
+      235.05001831054688,
+      555.0999755859375,
+      579.1500244140625
+    ],
+    "path": "BTH4_ETHERNET-TCPIP-p06-i0.png",
+    "width": 1046,
+    "height": 745
+  },
+  {
+    "id": "BTH4_ETHERNET-TCPIP-p07-i0",
+    "pdf": "BTH4_ETHERNET-TCPIP.pdf",
+    "page": 7,
+    "image": 0,
+    "bbox": [
+      72.0,
+      291.9000244140625,
+      574.1500244140625,
+      604.9000244140625
+    ],
+    "path": "BTH4_ETHERNET-TCPIP-p07-i0.png",
+    "width": 1043,
+    "height": 651
+  },
+  {
+    "id": "BTH4_ETHERNET-TCPIP-p08-i0",
+    "pdf": "BTH4_ETHERNET-TCPIP.pdf",
+    "page": 8,
+    "image": 0,
+    "bbox": [
+      72.0,
+      149.79998779296875,
+      572.2999877929688,
+      354.79998779296875
+    ],
+    "path": "BTH4_ETHERNET-TCPIP-p08-i0.png",
+    "width": 1046,
+    "height": 430
+  },
+  {
+    "id": "BTH4_ETHERNET-TCPIP-p08-i1",
+    "pdf": "BTH4_ETHERNET-TCPIP.pdf",
+    "page": 8,
+    "image": 1,
+    "bbox": [
+      72.0,
+      398.6999816894531,
+      573.5499877929688,
+      603.0999755859375
+    ],
+    "path": "BTH4_ETHERNET-TCPIP-p08-i1.png",
+    "width": 1044,
+    "height": 426
+  },
+  {
+    "id": "BTH4_ETHERNET-TCPIP-p10-i0",
+    "pdf": "BTH4_ETHERNET-TCPIP.pdf",
+    "page": 10,
+    "image": 0,
+    "bbox": [
+      72.0,
+      377.1999816894531,
+      572.9000244140625,
+      681.0499877929688
+    ],
+    "path": "BTH4_ETHERNET-TCPIP-p10-i0.png",
+    "width": 1045,
+    "height": 634
+  },
+  {
+    "id": "BTH4_ETHERNET-TCPIP-p11-i0",
+    "pdf": "BTH4_ETHERNET-TCPIP.pdf",
+    "page": 11,
+    "image": 0,
+    "bbox": [
+      72.0,
+      70.54998779296875,
+      576.0,
+      401.25
+    ],
+    "path": "BTH4_ETHERNET-TCPIP-p11-i0.png",
+    "width": 1048,
+    "height": 688
+  },
+  {
+    "id": "BTH4_ETHERNET-TCPIP-p12-i0",
+    "pdf": "BTH4_ETHERNET-TCPIP.pdf",
+    "page": 12,
+    "image": 0,
+    "bbox": [
+      72.0,
+      127.3499755859375,
+      578.4000244140625,
+      473.29998779296875
+    ],
+    "path": "BTH4_ETHERNET-TCPIP-p12-i0.png",
+    "width": 1051,
+    "height": 718
+  },
+  {
+    "id": "BTH5_BLUETOOTH-p04-i0",
+    "pdf": "BTH5_BLUETOOTH.pdf",
+    "page": 4,
+    "image": 0,
+    "bbox": [
+      114.80000305175781,
+      184.24002075195312,
+      529.25,
+      585.010009765625
+    ],
+    "path": "BTH5_BLUETOOTH-p04-i0.png",
+    "width": 910,
+    "height": 880
+  },
+  {
+    "id": "BTH5_BLUETOOTH-p08-i0",
+    "pdf": "BTH5_BLUETOOTH.pdf",
+    "page": 8,
+    "image": 0,
+    "bbox": [
+      84.94999694824219,
+      206.67001342773438,
+      541.0999755859375,
+      543.27001953125
+    ],
+    "path": "BTH5_BLUETOOTH-p08-i0.png",
+    "width": 915,
+    "height": 675
+  },
+  {
+    "id": "BTH5_BLUETOOTH-p09-i0",
+    "pdf": "BTH5_BLUETOOTH.pdf",
+    "page": 9,
+    "image": 0,
+    "bbox": [
+      84.94999694824219,
+      98.97000122070312,
+      541.0499877929688,
+      412.7699890136719
+    ],
+    "path": "BTH5_BLUETOOTH-p09-i0.png",
+    "width": 914,
+    "height": 629
+  },
+  {
+    "id": "BTH6_Cai_dat_DebianOS-p01-i0",
+    "pdf": "BTH6_Cai_dat_DebianOS.pdf",
+    "page": 1,
+    "image": 0,
+    "bbox": [
+      72.0,
+      153.16000366210938,
+      594.0,
+      430.05999755859375
+    ],
+    "path": "BTH6_Cai_dat_DebianOS-p01-i0.png",
+    "width": 1594,
+    "height": 846
+  },
+  {
+    "id": "BTH6_Cai_dat_DebianOS-p01-i1",
+    "pdf": "BTH6_Cai_dat_DebianOS.pdf",
+    "page": 1,
+    "image": 1,
+    "bbox": [
+      72.0,
+      441.02398681640625,
+      590.4000244140625,
+      716.823974609375
+    ],
+    "path": "BTH6_Cai_dat_DebianOS-p01-i1.png",
+    "width": 1920,
+    "height": 1022
+  },
+  {
+    "id": "BTH6_Cai_dat_DebianOS-p02-i0",
+    "pdf": "BTH6_Cai_dat_DebianOS.pdf",
+    "page": 2,
+    "image": 0,
+    "bbox": [
+      154.9499969482422,
+      70.55001831054688,
+      507.25,
+      384.32000732421875
+    ],
+    "path": "BTH6_Cai_dat_DebianOS-p02-i0.png",
+    "width": 706,
+    "height": 628
+  },
+  {
+    "id": "BTH6_Cai_dat_DebianOS-p02-i1",
+    "pdf": "BTH6_Cai_dat_DebianOS.pdf",
+    "page": 2,
+    "image": 1,
+    "bbox": [
+      152.6999969482422,
+      394.7159729003906,
+      509.1500244140625,
+      701.3159790039062
+    ],
+    "path": "BTH6_Cai_dat_DebianOS-p02-i1.png",
+    "width": 802,
+    "height": 690
+  },
+  {
+    "id": "BTH6_Cai_dat_DebianOS-p03-i0",
+    "pdf": "BTH6_Cai_dat_DebianOS.pdf",
+    "page": 3,
+    "image": 0,
+    "bbox": [
+      148.1999969482422,
+      70.55001831054688,
+      514.1500244140625,
+      385.8500061035156
+    ],
+    "path": "BTH6_Cai_dat_DebianOS-p03-i0.png",
+    "width": 803,
+    "height": 692
+  },
+  {
+    "id": "BTH6_Cai_dat_DebianOS-p03-i1",
+    "pdf": "BTH6_Cai_dat_DebianOS.pdf",
+    "page": 3,
+    "image": 1,
+    "bbox": [
+      148.8800048828125,
+      396.2200012207031,
+      513.530029296875,
+      713.0
+    ],
+    "path": "BTH6_Cai_dat_DebianOS-p03-i1.png",
+    "width": 801,
+    "height": 696
+  },
+  {
+    "id": "BTH6_Cai_dat_DebianOS-p04-i0",
+    "pdf": "BTH6_Cai_dat_DebianOS.pdf",
+    "page": 4,
+    "image": 0,
+    "bbox": [
+      148.07000732421875,
+      70.54998779296875,
+      514.3099975585938,
+      388.1499938964844
+    ],
+    "path": "BTH6_Cai_dat_DebianOS-p04-i0.png",
+    "width": 799,
+    "height": 693
+  },
+  {
+    "id": "BTH6_Cai_dat_DebianOS-p04-i1",
+    "pdf": "BTH6_Cai_dat_DebianOS.pdf",
+    "page": 4,
+    "image": 1,
+    "bbox": [
+      146.6999969482422,
+      390.916015625,
+      515.1500244140625,
+      710.7160034179688
+    ],
+    "path": "BTH6_Cai_dat_DebianOS-p04-i1.png",
+    "width": 804,
+    "height": 698
+  },
+  {
+    "id": "BTH6_Cai_dat_DebianOS-p05-i0",
+    "pdf": "BTH6_Cai_dat_DebianOS.pdf",
+    "page": 5,
+    "image": 0,
+    "bbox": [
+      146.6999969482422,
+      70.54998779296875,
+      514.9500122070312,
+      389.1499938964844
+    ],
+    "path": "BTH6_Cai_dat_DebianOS-p05-i0.png",
+    "width": 802,
+    "height": 694
+  },
+  {
+    "id": "BTH6_Cai_dat_DebianOS-p05-i1",
+    "pdf": "BTH6_Cai_dat_DebianOS.pdf",
+    "page": 5,
+    "image": 1,
+    "bbox": [
+      145.1999969482422,
+      391.5199890136719,
+      517.2000122070312,
+      714.2899780273438
+    ],
+    "path": "BTH6_Cai_dat_DebianOS-p05-i1.png",
+    "width": 802,
+    "height": 696
+  },
+  {
+    "id": "BTH6_Cai_dat_DebianOS-p06-i0",
+    "pdf": "BTH6_Cai_dat_DebianOS.pdf",
+    "page": 6,
+    "image": 0,
+    "bbox": [
+      150.22000122070312,
+      70.55001831054688,
+      512.1700439453125,
+      384.9200134277344
+    ],
+    "path": "BTH6_Cai_dat_DebianOS-p06-i0.png",
+    "width": 800,
+    "height": 695
+  },
+  {
+    "id": "BTH6_Cai_dat_DebianOS-p06-i1",
+    "pdf": "BTH6_Cai_dat_DebianOS.pdf",
+    "page": 6,
+    "image": 1,
+    "bbox": [
+      148.60000610351562,
+      387.9179992675781,
+      513.800048828125,
+      702.8880004882812
+    ],
+    "path": "BTH6_Cai_dat_DebianOS-p06-i1.png",
+    "width": 801,
+    "height": 691
+  },
+  {
+    "id": "BTH6_Cai_dat_DebianOS-p07-i0",
+    "pdf": "BTH6_Cai_dat_DebianOS.pdf",
+    "page": 7,
+    "image": 0,
+    "bbox": [
+      145.9499969482422,
+      70.54998779296875,
+      515.9500122070312,
+      391.5199890136719
+    ],
+    "path": "BTH6_Cai_dat_DebianOS-p07-i0.png",
+    "width": 801,
+    "height": 695
+  },
+  {
+    "id": "BTH6_Cai_dat_DebianOS-p07-i1",
+    "pdf": "BTH6_Cai_dat_DebianOS.pdf",
+    "page": 7,
+    "image": 1,
+    "bbox": [
+      145.0,
+      393.91302490234375,
+      517.4000244140625,
+      716.10302734375
+    ],
+    "path": "BTH6_Cai_dat_DebianOS-p07-i1.png",
+    "width": 802,
+    "height": 694
+  },
+  {
+    "id": "BTH6_Cai_dat_DebianOS-p08-i0",
+    "pdf": "BTH6_Cai_dat_DebianOS.pdf",
+    "page": 8,
+    "image": 0,
+    "bbox": [
+      142.1999969482422,
+      70.54998779296875,
+      519.7999877929688,
+      395.0899963378906
+    ],
+    "path": "BTH6_Cai_dat_DebianOS-p08-i0.png",
+    "width": 805,
+    "height": 692
+  },
+  {
+    "id": "BTH6_Cai_dat_DebianOS-p08-i1",
+    "pdf": "BTH6_Cai_dat_DebianOS.pdf",
+    "page": 8,
+    "image": 1,
+    "bbox": [
+      145.1999969482422,
+      397.4670104980469,
+      516.5499877929688,
+      717.8170166015625
+    ],
+    "path": "BTH6_Cai_dat_DebianOS-p08-i1.png",
+    "width": 802,
+    "height": 692
+  },
+  {
+    "id": "BTH6_Cai_dat_DebianOS-p09-i0",
+    "pdf": "BTH6_Cai_dat_DebianOS.pdf",
+    "page": 9,
+    "image": 0,
+    "bbox": [
+      146.6999969482422,
+      70.54998779296875,
+      515.0700073242188,
+      387.3999938964844
+    ],
+    "path": "BTH6_Cai_dat_DebianOS-p09-i0.png",
+    "width": 802,
+    "height": 690
+  },
+  {
+    "id": "BTH6_Cai_dat_DebianOS-p09-i1",
+    "pdf": "BTH6_Cai_dat_DebianOS.pdf",
+    "page": 9,
+    "image": 1,
+    "bbox": [
+      139.9499969482422,
+      389.7709655761719,
+      521.9500122070312,
+      720.8109741210938
+    ],
+    "path": "BTH6_Cai_dat_DebianOS-p09-i1.png",
+    "width": 803,
+    "height": 696
+  },
+  {
+    "id": "BTH6_Cai_dat_DebianOS-p10-i0",
+    "pdf": "BTH6_Cai_dat_DebianOS.pdf",
+    "page": 10,
+    "image": 0,
+    "bbox": [
+      139.1999969482422,
+      70.54998779296875,
+      522.5900268554688,
+      399.25
+    ],
+    "path": "BTH6_Cai_dat_DebianOS-p10-i0.png",
+    "width": 807,
+    "height": 692
+  },
+  {
+    "id": "BTH6_Cai_dat_DebianOS-p10-i1",
+    "pdf": "BTH6_Cai_dat_DebianOS.pdf",
+    "page": 10,
+    "image": 1,
+    "bbox": [
+      148.1999969482422,
+      401.61700439453125,
+      513.5800170898438,
+      717.4169921875
+    ],
+    "path": "BTH6_Cai_dat_DebianOS-p10-i1.png",
+    "width": 804,
+    "height": 695
+  },
+  {
+    "id": "BTH6_Cai_dat_DebianOS-p11-i0",
+    "pdf": "BTH6_Cai_dat_DebianOS.pdf",
+    "page": 11,
+    "image": 0,
+    "bbox": [
+      148.9499969482422,
+      70.55001831054688,
+      512.9500122070312,
+      386.1400146484375
+    ],
+    "path": "BTH6_Cai_dat_DebianOS-p11-i0.png",
+    "width": 798,
+    "height": 692
+  },
+  {
+    "id": "BTH6_Cai_dat_DebianOS-p11-i1",
+    "pdf": "BTH6_Cai_dat_DebianOS.pdf",
+    "page": 11,
+    "image": 1,
+    "bbox": [
+      148.9499969482422,
+      388.5129699707031,
+      513.3499755859375,
+      705.29296875
+    ],
+    "path": "BTH6_Cai_dat_DebianOS-p11-i1.png",
+    "width": 797,
+    "height": 693
+  },
+  {
+    "id": "BTH6_Cai_dat_DebianOS-p12-i0",
+    "pdf": "BTH6_Cai_dat_DebianOS.pdf",
+    "page": 12,
+    "image": 0,
+    "bbox": [
+      146.6999969482422,
+      70.54998779296875,
+      515.4500122070312,
+      387.3399963378906
+    ],
+    "path": "BTH6_Cai_dat_DebianOS-p12-i0.png",
+    "width": 803,
+    "height": 690
+  },
+  {
+    "id": "BTH6_Cai_dat_DebianOS-p12-i1",
+    "pdf": "BTH6_Cai_dat_DebianOS.pdf",
+    "page": 12,
+    "image": 1,
+    "bbox": [
+      145.1999969482422,
+      389.7179870605469,
+      516.6500244140625,
+      711.8880004882812
+    ],
+    "path": "BTH6_Cai_dat_DebianOS-p12-i1.png",
+    "width": 800,
+    "height": 694
+  },
+  {
+    "id": "BTH6_Cai_dat_DebianOS-p13-i0",
+    "pdf": "BTH6_Cai_dat_DebianOS.pdf",
+    "page": 13,
+    "image": 0,
+    "bbox": [
+      140.3800048828125,
+      70.54998779296875,
+      522.030029296875,
+      401.1099853515625
+    ],
+    "path": "BTH6_Cai_dat_DebianOS-p13-i0.png",
+    "width": 800,
+    "height": 693
+  },
+  {
+    "id": "BTH6_Cai_dat_DebianOS-p13-i1",
+    "pdf": "BTH6_Cai_dat_DebianOS.pdf",
+    "page": 13,
+    "image": 1,
+    "bbox": [
+      149.6999969482422,
+      403.5150451660156,
+      512.4500122070312,
+      717.2850341796875
+    ],
+    "path": "BTH6_Cai_dat_DebianOS-p13-i1.png",
+    "width": 801,
+    "height": 693
+  },
+  {
+    "id": "BTH6_Cai_dat_DebianOS-p14-i0",
+    "pdf": "BTH6_Cai_dat_DebianOS.pdf",
+    "page": 14,
+    "image": 0,
+    "bbox": [
+      147.85000610351562,
+      70.55001831054688,
+      514.550048828125,
+      387.3500061035156
+    ],
+    "path": "BTH6_Cai_dat_DebianOS-p14-i0.png",
+    "width": 802,
+    "height": 693
+  },
+  {
+    "id": "BTH6_Cai_dat_DebianOS-p14-i1",
+    "pdf": "BTH6_Cai_dat_DebianOS.pdf",
+    "page": 14,
+    "image": 1,
+    "bbox": [
+      138.92999267578125,
+      389.7139892578125,
+      523.47998046875,
+      720.8939819335938
+    ],
+    "path": "BTH6_Cai_dat_DebianOS-p14-i1.png",
+    "width": 801,
+    "height": 690
+  },
+  {
+    "id": "BTH6_Cai_dat_DebianOS-p15-i0",
+    "pdf": "BTH6_Cai_dat_DebianOS.pdf",
+    "page": 15,
+    "image": 0,
+    "bbox": [
+      161.3800048828125,
+      70.54998779296875,
+      501.0299987792969,
+      362.1099853515625
+    ],
+    "path": "BTH6_Cai_dat_DebianOS-p15-i0.png",
+    "width": 799,
+    "height": 686
+  },
+  {
+    "id": "BTH6_Cai_dat_DebianOS-p15-i1",
+    "pdf": "BTH6_Cai_dat_DebianOS.pdf",
+    "page": 15,
+    "image": 1,
+    "bbox": [
+      160.67999267578125,
+      364.510009765625,
+      501.72998046875,
+      669.27001953125
+    ],
+    "path": "BTH6_Cai_dat_DebianOS-p15-i1.png",
+    "width": 683,
+    "height": 610
+  },
+  {
+    "id": "BTH6_Cai_dat_DebianOS-p16-i0",
+    "pdf": "BTH6_Cai_dat_DebianOS.pdf",
+    "page": 16,
+    "image": 0,
+    "bbox": [
+      72.0,
+      70.55001831054688,
+      590.4000244140625,
+      433.6000061035156
+    ],
+    "path": "BTH6_Cai_dat_DebianOS-p16-i0.png",
+    "width": 1279,
+    "height": 896
+  },
+  {
+    "id": "BTH6_Cai_dat_DebianOS-p17-i0",
+    "pdf": "BTH6_Cai_dat_DebianOS.pdf",
+    "page": 17,
+    "image": 0,
+    "bbox": [
+      72.0,
+      95.86996459960938,
+      523.5499877929688,
+      499.4100036621094
+    ],
+    "path": "BTH6_Cai_dat_DebianOS-p17-i0.png",
+    "width": 904,
+    "height": 808
+  },
+  {
+    "id": "BTH6_Cai_dat_HomeAssistant_MQTT_Broker-p01-i0",
+    "pdf": "BTH6_Cai_dat_HomeAssistant_MQTT_Broker.pdf",
+    "page": 1,
+    "image": 0,
+    "bbox": [
+      72.0,
+      246.26004028320312,
+      574.2000122070312,
+      674.6600341796875
+    ],
+    "path": "BTH6_Cai_dat_HomeAssistant_MQTT_Broker-p01-i0.png",
+    "width": 1005,
+    "height": 858
+  },
+  {
+    "id": "BTH6_Cai_dat_HomeAssistant_MQTT_Broker-p06-i0",
+    "pdf": "BTH6_Cai_dat_HomeAssistant_MQTT_Broker.pdf",
+    "page": 6,
+    "image": 0,
+    "bbox": [
+      185.25,
+      297.10601806640625,
+      498.1499938964844,
+      713.4760131835938
+    ],
+    "path": "BTH6_Cai_dat_HomeAssistant_MQTT_Broker-p06-i0.png",
+    "width": 627,
+    "height": 834
+  },
+  {
+    "id": "BTH6_Cai_dat_HomeAssistant_MQTT_Broker-p07-i0",
+    "pdf": "BTH6_Cai_dat_HomeAssistant_MQTT_Broker.pdf",
+    "page": 7,
+    "image": 0,
+    "bbox": [
+      108.0,
+      127.40000915527344,
+      504.8500061035156,
+      342.6400146484375
+    ],
+    "path": "BTH6_Cai_dat_HomeAssistant_MQTT_Broker-p07-i0.png",
+    "width": 794,
+    "height": 432
+  },
+  {
+    "id": "BTH6_Cai_dat_HomeAssistant_MQTT_Broker-p07-i1",
+    "pdf": "BTH6_Cai_dat_HomeAssistant_MQTT_Broker.pdf",
+    "page": 7,
+    "image": 1,
+    "bbox": [
+      108.0,
+      441.3900146484375,
+      570.0,
+      686.1900024414062
+    ],
+    "path": "BTH6_Cai_dat_HomeAssistant_MQTT_Broker-p07-i1.png",
+    "width": 924,
+    "height": 491
+  },
+  {
+    "id": "BTH6_Cai_dat_HomeAssistant_MQTT_Broker-p08-i0",
+    "pdf": "BTH6_Cai_dat_HomeAssistant_MQTT_Broker.pdf",
+    "page": 8,
+    "image": 0,
+    "bbox": [
+      72.0,
+      174.6599884033203,
+      594.0,
+      416.4599914550781
+    ],
+    "path": "BTH6_Cai_dat_HomeAssistant_MQTT_Broker-p08-i0.png",
+    "width": 1920,
+    "height": 890
+  },
+  {
+    "id": "BTH6_Cai_dat_HomeAssistant_MQTT_Broker-p09-i0",
+    "pdf": "BTH6_Cai_dat_HomeAssistant_MQTT_Broker.pdf",
+    "page": 9,
+    "image": 0,
+    "bbox": [
+      215.77000427246094,
+      94.69999694824219,
+      432.2200012207031,
+      246.19000244140625
+    ],
+    "path": "BTH6_Cai_dat_HomeAssistant_MQTT_Broker-p09-i0.png",
+    "width": 666,
+    "height": 467
+  },
+  {
+    "id": "BTH6_Cai_dat_HomeAssistant_MQTT_Broker-p10-i0",
+    "pdf": "BTH6_Cai_dat_HomeAssistant_MQTT_Broker.pdf",
+    "page": 10,
+    "image": 0,
+    "bbox": [
+      72.0,
+      70.55001831054688,
+      576.0,
+      338.1000061035156
+    ],
+    "path": "BTH6_Cai_dat_HomeAssistant_MQTT_Broker-p10-i0.png",
+    "width": 1913,
+    "height": 1016
+  },
+  {
+    "id": "BTH6_Cai_dat_HomeAssistant_MQTT_Broker-p10-i1",
+    "pdf": "BTH6_Cai_dat_HomeAssistant_MQTT_Broker.pdf",
+    "page": 10,
+    "image": 1,
+    "bbox": [
+      72.0,
+      345.5699768066406,
+      576.0,
+      612.719970703125
+    ],
+    "path": "BTH6_Cai_dat_HomeAssistant_MQTT_Broker-p10-i1.png",
+    "width": 1911,
+    "height": 1014
+  },
+  {
+    "id": "BTH6_Cai_dat_HomeAssistant_MQTT_Broker-p14-i0",
+    "pdf": "BTH6_Cai_dat_HomeAssistant_MQTT_Broker.pdf",
+    "page": 14,
+    "image": 0,
+    "bbox": [
+      72.0,
+      234.260009765625,
+      583.1600341796875,
+      467.6600036621094
+    ],
+    "path": "BTH6_Cai_dat_HomeAssistant_MQTT_Broker-p14-i0.png",
+    "width": 1904,
+    "height": 870
+  },
+  {
+    "id": "BTH6_Cai_dat_HomeAssistant_MQTT_Broker-p15-i0",
+    "pdf": "BTH6_Cai_dat_HomeAssistant_MQTT_Broker.pdf",
+    "page": 15,
+    "image": 0,
+    "bbox": [
+      72.0,
+      70.55000305175781,
+      583.1799926757812,
+      304.5
+    ],
+    "path": "BTH6_Cai_dat_HomeAssistant_MQTT_Broker-p15-i0.png",
+    "width": 1917,
+    "height": 878
+  },
+  {
+    "id": "BTH6_ZigBee-p05-i0",
+    "pdf": "BTH6_ZigBee.pdf",
+    "page": 5,
+    "image": 0,
+    "bbox": [
+      72.0,
+      263.5099792480469,
+      576.0,
+      564.8599853515625
+    ],
+    "path": "BTH6_ZigBee-p05-i0.png",
+    "width": 1008,
+    "height": 603
+  },
+  {
+    "id": "BTH6_ZigBee-p06-i0",
+    "pdf": "BTH6_ZigBee.pdf",
+    "page": 6,
+    "image": 0,
+    "bbox": [
+      72.0,
+      184.239990234375,
+      576.0,
+      453.3399963378906
+    ],
+    "path": "BTH6_ZigBee-p06-i0.png",
+    "width": 1917,
+    "height": 1024
+  },
+  {
+    "id": "BTH6_ZigBee-p07-i0",
+    "pdf": "BTH6_ZigBee.pdf",
+    "page": 7,
+    "image": 0,
+    "bbox": [
+      72.0,
+      172.239990234375,
+      576.0,
+      437.94000244140625
+    ],
+    "path": "BTH6_ZigBee-p07-i0.png",
+    "width": 1911,
+    "height": 1008
+  },
+  {
+    "id": "BTH6_ZigBee-p08-i0",
+    "pdf": "BTH6_ZigBee.pdf",
+    "page": 8,
+    "image": 0,
+    "bbox": [
+      72.0,
+      98.97000122070312,
+      576.0,
+      279.1199951171875
+    ],
+    "path": "BTH6_ZigBee-p08-i0.png",
+    "width": 1920,
+    "height": 687
+  },
+  {
+    "id": "BTH8_WiFi-p04-i0",
+    "pdf": "BTH8_WiFi.pdf",
+    "page": 4,
+    "image": 0,
+    "bbox": [
+      145.5,
+      428.0500183105469,
+      536.5499877929688,
+      626.4000244140625
+    ],
+    "path": "BTH8_WiFi-p04-i0.png",
+    "width": 801,
+    "height": 407
+  },
+  {
+    "id": "BTH8_WiFi-p05-i0",
+    "pdf": "BTH8_WiFi.pdf",
+    "page": 5,
+    "image": 0,
+    "bbox": [
+      72.0,
+      127.40000915527344,
+      579.0,
+      341.6000061035156
+    ],
+    "path": "BTH8_WiFi-p05-i0.png",
+    "width": 1349,
+    "height": 571
+  },
+  {
+    "id": "BTH8_WiFi-p05-i1",
+    "pdf": "BTH8_WiFi.pdf",
+    "page": 5,
+    "image": 1,
+    "bbox": [
+      72.0,
+      413.719970703125,
+      579.0,
+      678.9199829101562
+    ],
+    "path": "BTH8_WiFi-p05-i1.png",
+    "width": 1590,
+    "height": 832
+  },
+  {
+    "id": "BTH8_WiFi-p06-i0",
+    "pdf": "BTH8_WiFi.pdf",
+    "page": 6,
+    "image": 0,
+    "bbox": [
+      72.0,
+      235.08999633789062,
+      575.4000244140625,
+      607.989990234375
+    ],
+    "path": "BTH8_WiFi-p06-i0.png",
+    "width": 1516,
+    "height": 1123
+  },
+  {
+    "id": "BTH8_WiFi-p07-i0",
+    "pdf": "BTH8_WiFi.pdf",
+    "page": 7,
+    "image": 0,
+    "bbox": [
+      72.0,
+      76.54998779296875,
+      575.4000244140625,
+      293.04998779296875
+    ],
+    "path": "BTH8_WiFi-p07-i0.png",
+    "width": 1315,
+    "height": 566
+  },
+  {
+    "id": "BTH8_WiFi-p07-i1",
+    "pdf": "BTH8_WiFi.pdf",
+    "page": 7,
+    "image": 1,
+    "bbox": [
+      72.0,
+      514.9600219726562,
+      573.4000244140625,
+      673.4600219726562
+    ],
+    "path": "BTH8_WiFi-p07-i1.png",
+    "width": 1393,
+    "height": 441
+  },
+  {
+    "id": "BTH8_WiFi-p08-i0",
+    "pdf": "BTH8_WiFi.pdf",
+    "page": 8,
+    "image": 0,
+    "bbox": [
+      72.0,
+      121.40000915527344,
+      573.4000244140625,
+      353.95001220703125
+    ],
+    "path": "BTH8_WiFi-p08-i0.png",
+    "width": 1393,
+    "height": 646
+  },
+  {
+    "id": "BTH8_WiFi-p08-i1",
+    "pdf": "BTH8_WiFi.pdf",
+    "page": 8,
+    "image": 1,
+    "bbox": [
+      72.0,
+      397.28997802734375,
+      573.4000244140625,
+      628.7899780273438
+    ],
+    "path": "BTH8_WiFi-p08-i1.png",
+    "width": 1393,
+    "height": 644
+  },
+  {
+    "id": "BTH8_WiFi-p11-i0",
+    "pdf": "BTH8_WiFi.pdf",
+    "page": 11,
+    "image": 0,
+    "bbox": [
+      72.0,
+      98.97000122070312,
+      576.4500122070312,
+      341.8699951171875
+    ],
+    "path": "BTH8_WiFi-p11-i0.png",
+    "width": 1009,
+    "height": 487
+  },
+  {
+    "id": "BTH8_WiFi-p11-i1",
+    "pdf": "BTH8_WiFi.pdf",
+    "page": 11,
+    "image": 1,
+    "bbox": [
+      72.0,
+      499.05999755859375,
+      578.0,
+      556.010009765625
+    ],
+    "path": "BTH8_WiFi-p11-i1.png",
+    "width": 1287,
+    "height": 146
+  },
+  {
+    "id": "BTH8_WiFi-p12-i0",
+    "pdf": "BTH8_WiFi.pdf",
+    "page": 12,
+    "image": 0,
+    "bbox": [
+      72.0,
+      98.96998596191406,
+      578.0,
+      155.91998291015625
+    ],
+    "path": "BTH8_WiFi-p12-i0.png",
+    "width": 1585,
+    "height": 180
+  },
+  {
+    "id": "BTH9_Huong_dan_tai_NS3-p03-i0",
+    "pdf": "BTH9_Huong_dan_tai_NS3.pdf",
+    "page": 3,
+    "image": 0,
+    "bbox": [
+      72.0,
+      295.1300048828125,
+      594.0,
+      619.4299926757812
+    ],
+    "path": "BTH9_Huong_dan_tai_NS3-p03-i0.png",
+    "width": 1279,
+    "height": 795
+  }
+]

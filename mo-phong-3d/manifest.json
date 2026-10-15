@@ -1,0 +1,242 @@
+[
+  {
+    "id": "2.1",
+    "guide": "BTH02_UART/2.1.md",
+    "blend": "2.1/bai-2.1.blend",
+    "renders": 5,
+    "detail": "UART 9600 8N1 | Noi cheo TX/RX | Khong dua 5V vao GPIO ESP",
+    "status": "illustration_not_hardware_result"
+  },
+  {
+    "id": "2.2",
+    "guide": "BTH02_UART/2.2.md",
+    "blend": "2.2/bai-2.2.blend",
+    "renders": 5,
+    "detail": "Mot nut D2 xuong GND | Nhan = LOW | LED D13 | Doi baud Serial Monitor theo firmware",
+    "status": "illustration_not_hardware_result"
+  },
+  {
+    "id": "2.3",
+    "guide": "BTH02_UART/2.3.md",
+    "blend": "2.3/bai-2.3.blend",
+    "renders": 1,
+    "detail": "RTC DS1307: SDA=A4, SCL=A5 | CR2032 giu gio khi mat nguon chinh",
+    "status": "illustration_not_hardware_result"
+  },
+  {
+    "id": "3.1",
+    "guide": "BTH03_SPI_I2C/3.1.md",
+    "blend": "3.1/bai-3.1.blend",
+    "renders": 4,
+    "detail": "RTC DS1307: SDA=A4, SCL=A5 | CR2032 giu gio khi mat nguon chinh",
+    "status": "illustration_not_hardware_result"
+  },
+  {
+    "id": "3.2",
+    "guide": "BTH03_SPI_I2C/3.2.md",
+    "blend": "3.2/bai-3.2.blend",
+    "renders": 5,
+    "detail": "I2C chung A4/A5 | Nut INPUT_PULLUP xuong GND | Dia chi LCD: do truoc khi sua code",
+    "status": "illustration_not_hardware_result"
+  },
+  {
+    "id": "3.3",
+    "guide": "BTH03_SPI_I2C/3.3.md",
+    "blend": "3.3/bai-3.3.blend",
+    "renders": 4,
+    "detail": "SPI mode 0 | 1 MHz | 4 x 16 bit = 64 xung / hang | Khong noi DOUT ve MISO",
+    "status": "illustration_not_hardware_result"
+  },
+  {
+    "id": "4.1",
+    "guide": "BTH04_ETHERNET_TCPIP/4.1.md",
+    "blend": "4.1/bai-4.1.blend",
+    "renders": 5,
+    "detail": "Packet Tracer: gateway, DHCP, IoT registration va dieu kien su kien | 3D minh hoa topology",
+    "status": "illustration_not_hardware_result"
+  },
+  {
+    "id": "4.2",
+    "guide": "BTH04_ETHERNET_TCPIP/4.2.md",
+    "blend": "4.2/bai-4.2.blend",
+    "renders": 4,
+    "detail": "Packet Tracer: gateway, DHCP, IoT registration va dieu kien su kien | 3D minh hoa topology",
+    "status": "illustration_not_hardware_result"
+  },
+  {
+    "id": "4.3",
+    "guide": "BTH04_ETHERNET_TCPIP/4.3.md",
+    "blend": "4.3/bai-4.3.blend",
+    "renders": 4,
+    "detail": "Packet Tracer: gateway, DHCP, IoT registration va dieu kien su kien | 3D minh hoa topology",
+    "status": "illustration_not_hardware_result"
+  },
+  {
+    "id": "5.1",
+    "guide": "BTH05_BLUETOOTH/5.1.md",
+    "blend": "5.1/bai-5.1.blend",
+    "renders": 4,
+    "detail": "HC-05 RXD / KEY logic 3.3V | AT: 38400 | Data: 9600 | VCC theo dung breakout",
+    "status": "illustration_not_hardware_result"
+  },
+  {
+    "id": "5.2",
+    "guide": "BTH05_BLUETOOTH/5.2.md",
+    "blend": "5.2/bai-5.2.blend",
+    "renders": 4,
+    "detail": "COM ao chi truyen byte stream | Khong mo phong Bluetooth RF / pairing / song vo tuyen",
+    "status": "illustration_not_hardware_result"
+  },
+  {
+    "id": "5.3",
+    "guide": "BTH05_BLUETOOTH/5.3.md",
+    "blend": "5.3/bai-5.3.blend",
+    "renders": 5,
+    "detail": "HC-05 RXD / KEY logic 3.3V | AT: 38400 | Data: 9600 | VCC theo dung breakout",
+    "status": "illustration_not_hardware_result"
+  },
+  {
+    "id": "5.4",
+    "guide": "BTH05_BLUETOOTH/5.4.md",
+    "blend": "5.4/bai-5.4.blend",
+    "renders": 4,
+    "detail": "HC-05 RXD / KEY logic 3.3V | AT: 38400 | Data: 9600 | VCC theo dung breakout",
+    "status": "illustration_not_hardware_result"
+  },
+  {
+    "id": "6.1",
+    "guide": "BTH06_ZIGBEE/6.1.md",
+    "blend": "6.1/bai-6.1.blend",
+    "renders": 4,
+    "detail": "Coordinator va sniffer la 2 thiet bi | Cung channel (vi du 15) | Khong tu suy dien key tu payload ma hoa",
+    "status": "illustration_not_hardware_result"
+  },
+  {
+    "id": "6.2",
+    "guide": "BTH06_ZIGBEE/6.2.md",
+    "blend": "6.2/bai-6.2.blend",
+    "renders": 4,
+    "detail": "Coordinator va sniffer la 2 thiet bi | Cung channel (vi du 15) | Khong tu suy dien key tu payload ma hoa",
+    "status": "illustration_not_hardware_result"
+  },
+  {
+    "id": "6.3",
+    "guide": "BTH06_ZIGBEE/6.3.md",
+    "blend": "6.3/bai-6.3.blend",
+    "renders": 4,
+    "detail": "Coordinator va sniffer la 2 thiet bi | Cung channel (vi du 15) | Khong tu suy dien key tu payload ma hoa",
+    "status": "illustration_not_hardware_result"
+  },
+  {
+    "id": "8.2",
+    "guide": "BTH08_WIFI/8.2.md",
+    "blend": "8.2/bai-8.2.blend",
+    "renders": 4,
+    "detail": "mDNS UDP5353 | HTTP TCP80 | Native API TCP6053 | PC phai thay duoc traffic can bat",
+    "status": "illustration_not_hardware_result"
+  },
+  {
+    "id": "8.3",
+    "guide": "BTH08_WIFI/8.3.md",
+    "blend": "8.3/bai-8.3.blend",
+    "renders": 4,
+    "detail": "DHT11 -> HA: 10 s | Tren 30 C / 10 s: ON | Duoi 28 C / 10 s: OFF | 28-30: giu trang thai",
+    "status": "illustration_not_hardware_result"
+  },
+  {
+    "id": "8.4",
+    "guide": "BTH08_WIFI/8.4.md",
+    "blend": "8.4/bai-8.4.blend",
+    "renders": 4,
+    "detail": "DHT11 -> HA: 10 s | Tren 30 C / 10 s: ON | Duoi 28 C / 10 s: OFF | 28-30: giu trang thai",
+    "status": "illustration_not_hardware_result"
+  },
+  {
+    "id": "9.1",
+    "guide": "BTH09_NS3/9.1.md",
+    "blend": "9.1/bai-9.1.blend",
+    "renders": 5,
+    "detail": "Blender chi minh hoa moi truong | Ket qua mo phong mang phai lay tu ns-3 / FlowMonitor",
+    "status": "illustration_not_hardware_result"
+  },
+  {
+    "id": "10.1",
+    "guide": "BTH10_NB_IOT_LTE/10.1.md",
+    "blend": "10.1/bai-10.1.blend",
+    "renders": 5,
+    "detail": "UDP 128 byte / 100 ms | UE 7.0.0.0/8 | Khoang cach 20/100/500m | Hinh khong theo ti le vat ly",
+    "status": "illustration_not_hardware_result"
+  },
+  {
+    "id": "12.1",
+    "guide": "BTH12_MQTT/12.1.md",
+    "blend": "12.1/bai-12.1.blend",
+    "renders": 5,
+    "detail": "Publish JSON sensor: simulated=true | Khong phai so do cam bien that",
+    "status": "illustration_not_hardware_result"
+  },
+  {
+    "id": "12.2",
+    "guide": "BTH12_MQTT/12.2.md",
+    "blend": "12.2/bai-12.2.blend",
+    "renders": 4,
+    "detail": "Topic cmd rieng state | Lenh den thiet bi -> phan hoi trang thai thuc",
+    "status": "illustration_not_hardware_result"
+  },
+  {
+    "id": "12.3",
+    "guide": "BTH12_MQTT/12.3.md",
+    "blend": "12.3/bai-12.3.blend",
+    "renders": 5,
+    "detail": "Retained state | Last Will offline | Reset -> online va state moi",
+    "status": "illustration_not_hardware_result"
+  },
+  {
+    "id": "13.1",
+    "guide": "BTH13_COAP/13.1.md",
+    "blend": "13.1/bai-13.1.blend",
+    "renders": 5,
+    "detail": "CON / NON + MID + token | Day la minh hoa luong giao thuc, so do / pcap phai lay tu chuong trinh",
+    "status": "illustration_not_hardware_result"
+  },
+  {
+    "id": "13.2",
+    "guide": "BTH13_COAP/13.2.md",
+    "blend": "13.2/bai-13.2.blend",
+    "renders": 5,
+    "detail": "GET / Observe notifications | Day la minh hoa luong giao thuc, so do / pcap phai lay tu chuong trinh",
+    "status": "illustration_not_hardware_result"
+  },
+  {
+    "id": "13.3",
+    "guide": "BTH13_COAP/13.3.md",
+    "blend": "13.3/bai-13.3.blend",
+    "renders": 5,
+    "detail": "Block2: 2KB / 128B = 16 blocks | Day la minh hoa luong giao thuc, so do / pcap phai lay tu chuong trinh",
+    "status": "illustration_not_hardware_result"
+  },
+  {
+    "id": "14.1",
+    "guide": "BTH14_BAO_MAT/14.1.md",
+    "blend": "14.1/bai-14.1.blend",
+    "renders": 5,
+    "detail": "So sanh plaintext 1883 voi TLS 8883 | Xac minh CA va hostname",
+    "status": "illustration_not_hardware_result"
+  },
+  {
+    "id": "14.2",
+    "guide": "BTH14_BAO_MAT/14.2.md",
+    "blend": "14.2/bai-14.2.blend",
+    "renders": 5,
+    "detail": "Replay: cung ban tin | Anti-replay: HMAC + time +/-10s + sequence tang",
+    "status": "illustration_not_hardware_result"
+  },
+  {
+    "id": "14.3",
+    "guide": "BTH14_BAO_MAT/14.3.md",
+    "blend": "14.3/bai-14.3.blend",
+    "renders": 5,
+    "detail": "Reconnect/backoff | Tai co gioi han | Quan sat kha nang phuc hoi",
+    "status": "illustration_not_hardware_result"
+  }
+]

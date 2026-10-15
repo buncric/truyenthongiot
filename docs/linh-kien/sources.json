@@ -1,0 +1,32 @@
+[
+  {
+    "file": "uno.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Arduino_UNO_microcontroller.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Arduino_UNO_microcontroller.jpg",
+    "author": "Arduino",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5/",
+    "changes": "None",
+    "sha256": "5f7e2767360f67baf07cd96a10e2aacf020cfa814c1443180aac66cf3cb84e82"
+  },
+  {
+    "file": "dht11.png",
+    "source": "https://commons.wikimedia.org/wiki/File:DHT11.png",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/8/85/DHT11.png",
+    "author": "Georgeinza",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "changes": "None",
+    "sha256": "a1573b5eb1e1f72dca7f544f1d43710774ab8539172ccc98adb83912c491aaf1"
+  },
+  {
+    "file": "ds1307.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Adafruit_DS1307_Real_Time_Clock_module_-_parts.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Adafruit_DS1307_Real_Time_Clock_module_-_parts.jpg",
+    "author": "oomlout",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "changes": "None",
+    "sha256": "5142f95994cd892c7835fe78e4940eab42933f705ae2ccea9e470db6265b8908"
+  }
+]
