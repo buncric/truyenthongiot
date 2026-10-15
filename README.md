@@ -35,3 +35,10 @@ Thiết kế hệ thống sử dụng 1 nút nhấn và UART để chuyển gi�
 ### Đề bài
 
 ![Bài 1.2](1.2/images/bai_1_2_de_bai.png)
+
+## Bài thực hành Wi-Fi - ESPHome và Home Assistant
+
+Thêm ESP32-S3 DevKitC-1 vào Home Assistant bằng ESPHome, cấu hình Wi-Fi, Web Server và LED RGB tích hợp GPIO48.
+
+- [Xem hướng dẫn chi tiết](BTH_WIFI_ESPHOME/README.md)
+- [Cấu hình ESPHome mẫu](BTH_WIFI_ESPHOME/esp32-s3-devkitc1.yaml)
