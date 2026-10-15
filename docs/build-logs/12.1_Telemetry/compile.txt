@@ -1,0 +1,16 @@
+<USER_PROFILE>\Documents\Arduino\libraries\PubSubClient\src\PubSubClient.cpp: In member function 'boolean PubSubClient::publish_P(const char*, const uint8_t*, unsigned int, boolean)':
+<USER_PROFILE>\Documents\Arduino\libraries\PubSubClient\src\PubSubClient.cpp:523:16: warning: comparison of integer expressions of different signedness: 'unsigned int' and 'int' [-Wsign-compare]
+  523 |     return (rc == expectedLength);
+      |             ~~~^~~~~~~~~~~~~~~~~
+. Variables and constants in RAM (global, static), used 28564 / 80192 bytes (35%)
+║   SEGMENT  BYTES    DESCRIPTION
+╠══ DATA     1496     initialized variables
+╠══ RODATA   1084     constants
+╚══ BSS      25984    zeroed variables
+. Instruction RAM (IRAM_ATTR, ICACHE_RAM_ATTR), used 60267 / 65536 bytes (91%)
+║   SEGMENT  BYTES    DESCRIPTION
+╠══ ICACHE   32768    reserved space for flash instruction cache
+╚══ IRAM     27499    code in IRAM
+. Code in flash (default, ICACHE_FLASH_ATTR), used 251524 / 1048576 bytes (23%)
+║   SEGMENT  BYTES    DESCRIPTION
+╚══ IROM     251524   code in flash

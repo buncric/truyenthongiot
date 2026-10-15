@@ -1,0 +1,67 @@
+[
+  {
+    "file": "BTH10_NB-IoT_LTE.pdf",
+    "bytes": 279262,
+    "sha256": "225116c2412d45ffc6f31373d877fe6ddb43fe96e9cacc69fdb26d2ff2b635eb"
+  },
+  {
+    "file": "BTH12_MQTT.pdf",
+    "bytes": 1085643,
+    "sha256": "b53716d8be6ffc070f2453eae16506c7db0518949ba0065d6874ca389c19e92d"
+  },
+  {
+    "file": "BTH13_CoAP.pdf",
+    "bytes": 346662,
+    "sha256": "1fdd5bb99d9280b5c8ff243593d16acb3cc3f5f587f99e47665898f662a45cac"
+  },
+  {
+    "file": "BTH14_Bao-mat.pdf",
+    "bytes": 424216,
+    "sha256": "500333e1da695c672181f4846fef71d4b04829521f038c1eab64899d95df7308"
+  },
+  {
+    "file": "BTH2_UART.pdf",
+    "bytes": 411452,
+    "sha256": "06093670778014c0966c1cb13c07d7b7a17a7553a93fe810005e2f0477cb6812"
+  },
+  {
+    "file": "BTH3_SPI_I2C.pdf",
+    "bytes": 316321,
+    "sha256": "35ac3fd9a086a012538464204aac7d7f9bf601c04adcd9d7698ea29ad6e6fe3c"
+  },
+  {
+    "file": "BTH4_ETHERNET-TCPIP.pdf",
+    "bytes": 895712,
+    "sha256": "cc1b6004757d7958548efad9dbc211e71fba26014aa38b2f3606b3855080578c"
+  },
+  {
+    "file": "BTH5_BLUETOOTH.pdf",
+    "bytes": 613721,
+    "sha256": "37b290b39a62ab9ad398b4f27e26ce67990f65d5f39f247d17d5f541e4b5c04d"
+  },
+  {
+    "file": "BTH6_Cai_dat_DebianOS.pdf",
+    "bytes": 2095257,
+    "sha256": "4626c31876c66c30278813299d15092cce02f81868f98fdf5473c802e83b9b64"
+  },
+  {
+    "file": "BTH6_Cai_dat_HomeAssistant_MQTT_Broker.pdf",
+    "bytes": 1062174,
+    "sha256": "89c4a7e93ee4028863c43483b8a2ff460c0300844a4df73ece82374764375b89"
+  },
+  {
+    "file": "BTH6_ZigBee.pdf",
+    "bytes": 601842,
+    "sha256": "d7f0ec11029baaea411394283a67041f9b4efcd8535ed88b05d70bb09d846de9"
+  },
+  {
+    "file": "BTH8_WiFi.pdf",
+    "bytes": 921113,
+    "sha256": "57a8a873d07fd33fa7f9ecaa59fc15f9c90e413d24dab119aa255965ebbe9fd9"
+  },
+  {
+    "file": "BTH9_Huong_dan_tai_NS3.pdf",
+    "bytes": 252014,
+    "sha256": "37e32c55999c76aa9816794dfd086d8bde21f4d72f7d23cc0b78c3dd731c0c4b"
+  }
+]

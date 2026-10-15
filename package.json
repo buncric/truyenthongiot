@@ -1,0 +1,13 @@
+{
+  "name": "truyenthongiot-labs",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "BTH05_BLUETOOTH/web",
+    "BTH13_COAP/node"
+  ],
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "check": "node tools/check-js.cjs"
+  }
+}

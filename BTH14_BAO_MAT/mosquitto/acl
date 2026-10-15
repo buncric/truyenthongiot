@@ -1,0 +1,6 @@
+user mqtt-user
+topic readwrite iot/#
+user labpc
+topic write iot/security/sv01/cmd
+topic read iot/security/sv01/state
+topic read iot/security/sv01/status

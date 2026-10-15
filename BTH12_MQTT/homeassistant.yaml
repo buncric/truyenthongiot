@@ -1,0 +1,32 @@
+mqtt:
+  sensor:
+    - name: "Lab1 SV01 Temperature"
+      unique_id: lab1_sv01_temperature
+      state_topic: iot/lab1/sv01/sensor
+      value_template: "{{ value_json.temp }}"
+      unit_of_measurement: "°C"
+    - name: "Lab1 SV01 Humidity"
+      unique_id: lab1_sv01_humidity
+      state_topic: iot/lab1/sv01/sensor
+      value_template: "{{ value_json.hum }}"
+      unit_of_measurement: "%"
+  switch:
+    - name: "Lab2 SV01 LED"
+      unique_id: lab2_sv01_led
+      command_topic: iot/lab2/sv01/cmd
+      state_topic: iot/lab2/sv01/state
+      payload_on: "ON"
+      payload_off: "OFF"
+      optimistic: false
+      retain: false
+    - name: "Lab3 SV01 LED"
+      unique_id: lab3_sv01_led
+      command_topic: iot/lab3/sv01/cmd
+      state_topic: iot/lab3/sv01/state
+      availability_topic: iot/lab3/sv01/lwt
+      payload_available: ONLINE
+      payload_not_available: OFFLINE
+      payload_on: "ON"
+      payload_off: "OFF"
+      optimistic: false
+      retain: false

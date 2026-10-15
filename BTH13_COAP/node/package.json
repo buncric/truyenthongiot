@@ -1,0 +1,13 @@
+{
+  "name": "iot-coap-labs",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.cjs",
+    "client": "node client.cjs"
+  },
+  "dependencies": {
+    "coap": "1.4.1",
+    "coap-packet": "1.1.1"
+  }
+}

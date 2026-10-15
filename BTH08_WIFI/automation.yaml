@@ -1,0 +1,22 @@
+- id: iot_lab8_hot
+  alias: "BTH8 - Nhiệt độ cao bật LED"
+  triggers:
+    - trigger: numeric_state
+      entity_id: sensor.wemos_d1_temperature
+      above: 30
+      for: "00:00:10"
+  actions:
+    - action: light.turn_on
+      target:
+        entity_id: light.wemos_d1_wemos_led
+- id: iot_lab8_cool
+  alias: "BTH8 - Nhiệt độ giảm tắt LED"
+  triggers:
+    - trigger: numeric_state
+      entity_id: sensor.wemos_d1_temperature
+      below: 28
+      for: "00:00:10"
+  actions:
+    - action: light.turn_off
+      target:
+        entity_id: light.wemos_d1_wemos_led

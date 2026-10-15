@@ -5,3 +5,17 @@
 # Local editor and OS files
 .DS_Store
 Thumbs.db
+
+node_modules/
+__pycache__/
+.venv/
+.pio/
+*.pyc
+**/secrets.yaml
+**/config.local.h
+**/ca.h
+**/certs/
+**/passwd
+**/coordinator_backup.json
+**/data/
+artifacts/

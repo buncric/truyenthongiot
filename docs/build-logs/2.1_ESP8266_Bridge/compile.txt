@@ -1,0 +1,12 @@
+. Variables and constants in RAM (global, static), used 28580 / 80192 bytes (35%)
+║   SEGMENT  BYTES    DESCRIPTION
+╠══ DATA     1496     initialized variables
+╠══ RODATA   940      constants
+╚══ BSS      26144    zeroed variables
+. Instruction RAM (IRAM_ATTR, ICACHE_RAM_ATTR), used 61895 / 65536 bytes (94%)
+║   SEGMENT  BYTES    DESCRIPTION
+╠══ ICACHE   32768    reserved space for flash instruction cache
+╚══ IRAM     29127    code in IRAM
+. Code in flash (default, ICACHE_FLASH_ATTR), used 240232 / 1048576 bytes (22%)
+║   SEGMENT  BYTES    DESCRIPTION
+╚══ IROM     240232   code in flash

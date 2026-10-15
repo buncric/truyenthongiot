@@ -1,0 +1,20 @@
+version: 4
+mqtt:
+  server: mqtt://core-mosquitto:1883
+  user: mqtt-user
+  password: CHANGE_ME_LOCALLY
+  base_topic: zigbee2mqtt
+serial:
+  port: /dev/serial/by-id/REPLACE_WITH_YOUR_DONGLE
+  adapter: ember
+  baudrate: 115200
+homeassistant:
+  enabled: true
+frontend:
+  enabled: true
+  port: 8099
+advanced:
+  channel: 15
+  pan_id: GENERATE
+  ext_pan_id: GENERATE
+  network_key: GENERATE

@@ -1,0 +1,10 @@
+const $=id=>document.getElementById(id), samples=[];
+const log=text=>{$('log').textContent=(text+'\n'+$('log').textContent).slice(0,4000);};
+async function api(route,body){const res=await fetch(route,body?{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}:{});const result=await res.json();if(!res.ok)throw Error(result.error);return result;}
+function update(s){if(typeof s.connected!=='boolean')return;$('status').textContent=(s.demo?'DEMO • Dữ liệu mô phỏng • ':'')+(s.connected?'Đã kết nối':'Chưa kết nối');for(const id of ['disconnect','on','off'])$(id).disabled=!s.connected;$('connect').disabled=s.connected;}
+async function ports(){const list=await api('/ports');$('ports').replaceChildren(...list.map(p=>new Option(p.path,p.path)));}
+for(const [id,route,body] of [['connect','/connect',()=>({port:$('ports').value})],['disconnect','/disconnect',()=>({})],['on','/led',()=>({command:'on'})],['off','/led',()=>({command:'off'})]])$(id).onclick=()=>api(route,body()).then(update).catch(e=>log(e.message));
+$('refresh').onclick=()=>ports().catch(e=>log(e.message));
+function chart(){const c=$('chart'),ctx=c.getContext('2d');ctx.clearRect(0,0,c.width,c.height);ctx.fillStyle='#35516b';ctx.font='15px system-ui';for(let t=0;t<=50;t+=10){const y=250-t*4.4;ctx.fillText(t+'°C',8,y);ctx.strokeStyle='#dae4ed';ctx.beginPath();ctx.moveTo(55,y);ctx.lineTo(880,y);ctx.stroke();}ctx.strokeStyle='#008c91';ctx.lineWidth=3;ctx.beginPath();samples.forEach((s,i)=>{const x=55+i*825/59,y=250-Math.max(0,Math.min(50,s))*4.4;i?ctx.lineTo(x,y):ctx.moveTo(x,y);});ctx.stroke();}
+const ws=new WebSocket(`ws://${location.host}`);ws.onmessage=({data})=>{const s=JSON.parse(data);update(s);if(Number.isFinite(s.temp)){$('temp').textContent=s.temp.toFixed(1);$('hum').textContent=s.hum.toFixed(1);samples.push(s.temp);if(samples.length>60)samples.shift();chart();}if(s.log||s.error)log(s.log||s.error);};ws.onclose=()=>{update({connected:false});log('Backend đã ngắt kết nối. Tải lại trang sau khi khởi động server.');};
+ports().catch(e=>log(e.message));api('/status').then(update);chart();

@@ -1,0 +1,39 @@
+name: IoT lab checks
+on:
+  push:
+  pull_request:
+jobs:
+  software:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm run check
+      - run: npm test
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s tests -p 'test_*.py' -v
+      - run: python tools/validate_repo.py
+  lte:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ns-3 headers
+        run: sudo apt-get update && sudo apt-get install -y libns3-dev libgsl-dev libsqlite3-dev libxml2-dev pkg-config g++
+      - name: Build and run LTE scenario
+        run: |
+          g++ -std=c++17 BTH10_NB_IOT_LTE/lte-lab1.cc -o /tmp/lte-lab1 $(pkg-config --cflags --libs ns3-core ns3-network ns3-internet ns3-lte ns3-mobility ns3-point-to-point ns3-applications ns3-flow-monitor ns3-netanim)
+          /tmp/lte-lab1 --nUe=1 --simTime=3
+          python BTH10_NB_IOT_LTE/analyze_flow.py lte-lab1.xml
+      - uses: actions/upload-artifact@v4
+        with:
+          name: lte-results
+          path: |
+            lte.xml
+            lte-lab1.xml
+            flow-summary.csv

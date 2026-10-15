@@ -1,0 +1,7 @@
+exercise,source,condition,destination,action
+4.2,Motion Sensor,Motion detected = true,Lamp,On
+4.2,Motion Sensor,Motion detected = false,Lamp,Off
+4.3,Motion Sensor,Motion detected = true,Siren,On
+4.3,Motion Sensor,Motion detected = true,Camera,On
+4.3,Motion Sensor,Motion detected = false,Siren,Off
+4.3,Motion Sensor,Motion detected = false,Camera,Off

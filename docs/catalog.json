@@ -1,0 +1,219 @@
+[
+  {
+    "id": "2.1",
+    "project": "BTH02_UART",
+    "guide": "BTH02_UART/2.1.md",
+    "title": "Bài 2.1. UART giữa ESP8266 và Arduino Uno",
+    "steps": 5
+  },
+  {
+    "id": "2.2",
+    "project": "BTH02_UART",
+    "guide": "BTH02_UART/2.2.md",
+    "title": "Bài 2.2. Chọn baud bằng nút nhấn",
+    "steps": 5
+  },
+  {
+    "id": "2.3",
+    "project": "BTH02_UART",
+    "guide": "BTH02_UART/2.3.md",
+    "title": "Bài 2.3. Mục I²C được liệt kê trong đề UART",
+    "steps": 1
+  },
+  {
+    "id": "3.1",
+    "project": "BTH03_SPI_I2C",
+    "guide": "BTH03_SPI_I2C/3.1.md",
+    "title": "Bài 3.1. Đọc thời gian DS1307 qua I²C",
+    "steps": 4
+  },
+  {
+    "id": "3.2",
+    "project": "BTH03_SPI_I2C",
+    "guide": "BTH03_SPI_I2C/3.2.md",
+    "title": "Bài 3.2. Đồng hồ báo thức thông minh",
+    "steps": 5
+  },
+  {
+    "id": "3.3",
+    "project": "BTH03_SPI_I2C",
+    "guide": "BTH03_SPI_I2C/3.3.md",
+    "title": "Bài 3.3. SPI và bốn MAX7219 nối chuỗi",
+    "steps": 4
+  },
+  {
+    "id": "4.1",
+    "project": "BTH04_ETHERNET_TCPIP",
+    "guide": "BTH04_ETHERNET_TCPIP/4.1.md",
+    "title": "Bài 4.1. Mạng IoT gia đình và điều khiển từ xa",
+    "steps": 5
+  },
+  {
+    "id": "4.2",
+    "project": "BTH04_ETHERNET_TCPIP",
+    "guide": "BTH04_ETHERNET_TCPIP/4.2.md",
+    "title": "Bài 4.2. Đèn tự bật theo cảm biến chuyển động",
+    "steps": 4
+  },
+  {
+    "id": "4.3",
+    "project": "BTH04_ETHERNET_TCPIP",
+    "guide": "BTH04_ETHERNET_TCPIP/4.3.md",
+    "title": "Bài 4.3. Báo xâm nhập với còi và camera",
+    "steps": 4
+  },
+  {
+    "id": "5.1",
+    "project": "BTH05_BLUETOOTH",
+    "guide": "BTH05_BLUETOOTH/5.1.md",
+    "title": "Bài 5.1. Cấu hình HC-05 bằng AT Command",
+    "steps": 4
+  },
+  {
+    "id": "5.2",
+    "project": "BTH05_BLUETOOTH",
+    "guide": "BTH05_BLUETOOTH/5.2.md",
+    "title": "Bài 5.2. Mô phỏng HC-05/HC-06 bằng cặp COM ảo",
+    "steps": 4
+  },
+  {
+    "id": "5.3",
+    "project": "BTH05_BLUETOOTH",
+    "guide": "BTH05_BLUETOOTH/5.3.md",
+    "title": "Bài 5.3. Điều khiển LED qua Bluetooth và WebApp",
+    "steps": 5
+  },
+  {
+    "id": "5.4",
+    "project": "BTH05_BLUETOOTH",
+    "guide": "BTH05_BLUETOOTH/5.4.md",
+    "title": "Bài 5.4. DHT11 và đồ thị thời gian thực",
+    "steps": 4
+  },
+  {
+    "id": "6.1",
+    "project": "BTH06_ZIGBEE",
+    "guide": "BTH06_ZIGBEE/6.1.md",
+    "title": "Bài 6.1. Bắt và phân tích MAC/NWK Zigbee",
+    "steps": 4
+  },
+  {
+    "id": "6.2",
+    "project": "BTH06_ZIGBEE",
+    "guide": "BTH06_ZIGBEE/6.2.md",
+    "title": "Bài 6.2. ZCL/APS: On, Off và Attribute Report",
+    "steps": 4
+  },
+  {
+    "id": "6.3",
+    "project": "BTH06_ZIGBEE",
+    "guide": "BTH06_ZIGBEE/6.3.md",
+    "title": "Bài 6.3. Quá trình join và phân phối khóa",
+    "steps": 4
+  },
+  {
+    "id": "8.1",
+    "project": "BTH08_WIFI",
+    "guide": "BTH08_WIFI/8.1.md",
+    "title": "Bài 8.1. Kết nối Wemos D1 mini bằng ESPHome",
+    "steps": 5
+  },
+  {
+    "id": "8.2",
+    "project": "BTH08_WIFI",
+    "guide": "BTH08_WIFI/8.2.md",
+    "title": "Bài 8.2. Phân tích gói ESPHome bằng Wireshark",
+    "steps": 4
+  },
+  {
+    "id": "8.3",
+    "project": "BTH08_WIFI",
+    "guide": "BTH08_WIFI/8.3.md",
+    "title": "Bài 8.3. DHT11 thành entity nhiệt độ/độ ẩm",
+    "steps": 4
+  },
+  {
+    "id": "8.4",
+    "project": "BTH08_WIFI",
+    "guide": "BTH08_WIFI/8.4.md",
+    "title": "Bài 8.4. Automation theo nhiệt độ có hysteresis",
+    "steps": 4
+  },
+  {
+    "id": "9.1",
+    "project": "BTH09_NS3",
+    "guide": "BTH09_NS3/9.1.md",
+    "title": "Bài 9.1. Cài NS-3 và NetAnim trên Debian",
+    "steps": 5
+  },
+  {
+    "id": "10.1",
+    "project": "BTH10_NB_IOT_LTE",
+    "guide": "BTH10_NB_IOT_LTE/10.1.md",
+    "title": "Bài 10.1. Mạng LTE/EPC có lưu lượng và FlowMonitor",
+    "steps": 5
+  },
+  {
+    "id": "12.1",
+    "project": "BTH12_MQTT",
+    "guide": "BTH12_MQTT/12.1.md",
+    "title": "Bài 12.1. Publish dữ liệu và phân tích gói MQTT",
+    "steps": 5
+  },
+  {
+    "id": "12.2",
+    "project": "BTH12_MQTT",
+    "guide": "BTH12_MQTT/12.2.md",
+    "title": "Bài 12.2. Điều khiển hai chiều với topic cmd/state",
+    "steps": 4
+  },
+  {
+    "id": "12.3",
+    "project": "BTH12_MQTT",
+    "guide": "BTH12_MQTT/12.3.md",
+    "title": "Bài 12.3. Retain, Last Will và trạng thái sau reset",
+    "steps": 5
+  },
+  {
+    "id": "13.1",
+    "project": "BTH13_COAP",
+    "guide": "BTH13_COAP/13.1.md",
+    "title": "Bài 13.1. CON/NON, ACK và gửi lại khi mất phản hồi",
+    "steps": 5
+  },
+  {
+    "id": "13.2",
+    "project": "BTH13_COAP",
+    "guide": "BTH13_COAP/13.2.md",
+    "title": "Bài 13.2. Polling và Observe",
+    "steps": 5
+  },
+  {
+    "id": "13.3",
+    "project": "BTH13_COAP",
+    "guide": "BTH13_COAP/13.3.md",
+    "title": "Bài 13.3. Blockwise: nhận đầy đủ 2KB",
+    "steps": 5
+  },
+  {
+    "id": "14.1",
+    "project": "BTH14_BAO_MAT",
+    "guide": "BTH14_BAO_MAT/14.1.md",
+    "title": "Bài 14.1. MQTT plaintext và MQTT over TLS",
+    "steps": 5
+  },
+  {
+    "id": "14.2",
+    "project": "BTH14_BAO_MAT",
+    "guide": "BTH14_BAO_MAT/14.2.md",
+    "title": "Bài 14.2. Replay và chống trùng bằng HMAC, thời gian, sequence",
+    "steps": 5
+  },
+  {
+    "id": "14.3",
+    "project": "BTH14_BAO_MAT",
+    "guide": "BTH14_BAO_MAT/14.3.md",
+    "title": "Bài 14.3. Khả năng phục hồi kết nối và tải có giới hạn",
+    "steps": 5
+  }
+]

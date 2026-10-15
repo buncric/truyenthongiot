@@ -1,0 +1,14 @@
+{
+  "name": "iot-bluetooth-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.cjs",
+    "demo": "node server.cjs --demo"
+  },
+  "dependencies": {
+    "express": "5.1.0",
+    "serialport": "13.0.0",
+    "ws": "8.22.0"
+  }
+}

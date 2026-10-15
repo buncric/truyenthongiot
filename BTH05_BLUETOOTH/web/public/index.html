@@ -1,0 +1,9 @@
+<!doctype html><html lang="vi"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Bài 5 • Bluetooth Serial</title>
+<link rel="stylesheet" href="style.css"><main><p>TRUYỀN THÔNG TRONG IoT / BÀI 5</p><h1>Bluetooth Serial & cảm biến</h1>
+<p>HC-05/HC-06 dùng SPP qua cổng COM; giao diện kết nối backend Serial trên máy tính.</p>
+<p id="status" role="status">Chưa kết nối</p><label>Cổng Serial <select id="ports"></select></label>
+<button id="refresh">Làm mới cổng</button><button id="connect">Connect</button><button id="disconnect" disabled>Disconnect</button>
+<section><button id="on" disabled>Bật LED</button><button id="off" disabled>Tắt LED</button></section>
+<section class="metrics"><article><h2>Nhiệt độ</h2><strong id="temp">—</strong> °C</article><article><h2>Độ ẩm</h2><strong id="hum">—</strong> %</article></section>
+<h2>Nhiệt độ theo thời gian · tối đa 60 mẫu</h2><canvas id="chart" width="900" height="280" aria-label="Biểu đồ nhiệt độ"></canvas>
+<pre id="log" aria-live="polite"></pre></main><script src="app.js"></script></html>
